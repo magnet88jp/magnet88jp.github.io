@@ -6,20 +6,20 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/riot/2.3/riot+compiler.js"></script>
   <script src="http://coffeescript.org/extras/coffee-script.js"></script>
+  <script type="riot/tag" src="../../js/tags/bootstrap-carousel.tag"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Bootstrap Carousel with Riot</title>
 </head>
 <body>
 
-<bootstrap-carousel interval="1500">
+<bootstrap-carousel interval="3000">
   <img src="http://placehold.it/800x400" alt="Caption #1">
   <img src="http://placehold.it/800x400" alt="Caption #2">
   <img src="http://placehold.it/800x400" alt="Caption #3">
 </bootstrap-carousel>
 
 <!-- include the tag -->
-<script type="riot/tag" src="../../js/tags/bootstrap-carousel.tag"></script>
 
 <script>
   $(function(){
