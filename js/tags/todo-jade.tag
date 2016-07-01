@@ -8,7 +8,7 @@ todo-jade
     input
     button Add { items.length + 1 }
 
-  script(type='text/coffeescript').
+  script(type='coffee').
     @items = []
 
     @add = (e)=>
