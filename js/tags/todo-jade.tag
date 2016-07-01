@@ -1,4 +1,4 @@
-todo
+todo-jade
   h3 { opts.title }
 
   ul
