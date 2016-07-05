@@ -1,15 +1,35 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
   <title>Craft Homepage x Riot.js</title>
 </head>
-<body>
+<body id="top">
+  <div class="blur-area">
+    <header id="home">
+
+      <ctd-nav>
+        <a href="index.html">ホーム</a>
+        <a href="company/index.html">会社概要</a>
+        <a href="solution/index.html">ソリューション</a>
+        <a href="recruit/index.html">採用情報</a>
+        <a href="news/index.html">ニュース</a>
+        <a href="https://www.netyear.net/craft/forms/inquiry/" target="_blank">お問い合わせ</a>
+      </ctd-nav>
+
+    </header>
+  </div><!-- /.blur-area -->
+
   <!-- place the custom tag anywhere inside the body -->
   <hello-world></hello-world>
   <!-- include the tag -->
   <script type="riot/tag" src="../../js/tags/hello_world.tag"></script>
+  <script type="riot/tag" src="../../js/ctd/tags/ctd-nav.tag"></script>
   <!-- include riot.js -->
   <script src="https://cdn.jsdelivr.net/riot/2.4/riot+compiler.min.js"></script>
   <!-- mount the tag -->
-  <script>riot.mount('hello-world')</script>
+  <script>
+    riot.mount('hello-world');
+    riot.mount('ctd-nav');
+  </script>
 </body>
 </html>
