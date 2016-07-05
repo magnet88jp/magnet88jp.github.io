@@ -19,7 +19,7 @@
   <script type="coffee">
     @items = for anchor, i in $(@root._innerHTML) when anchor.tagName == 'A'
       href:    anchor.href
-      title:   'title'
+      title:   JSON.stringify(anchor)
       index:   i
   </script>
 
