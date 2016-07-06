@@ -16,7 +16,6 @@
 
   <style scoped>
   body {
-      font-size: 14px;
       overflow-y: scroll;
       overflow-x: hidden;
       background-color: rgb(255, 255, 255);
@@ -26,13 +25,20 @@
       min-width: 320px;
       font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
       margin: 0px;
+      font-size: 14px;
   }
   a {
-      color: #337ab7;
-      background-color: transparent;
+      color: #353535;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
       text-decoration: none;
-      -webkit-font-smoothing: antialiased;
-      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  }
+  a:hover, a:focus {
+      color: #f1c40f;
+      text-decoration: none;
+      outline: none;
   }
   nav {
     background-color: #242830;
@@ -63,11 +69,6 @@
     -o-transition: all 0.5s ease;
     padding-left: 0;
     position: relative;
-  }
-  a:hover, a:focus {
-      color: #f1c40f;
-      text-decoration: none;
-      outline: none;
   }
   nav ul li a:hover, nav ul li a:focus {
       text-decoration: none;
