@@ -27,6 +27,12 @@
     position: absolute;
     right: 0 !important;
   }
+  a {
+      color: #337ab7;
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  }
   nav {
     background-color: #242830;
     margin-top: -1px;
