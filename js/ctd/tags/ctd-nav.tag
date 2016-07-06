@@ -16,8 +16,6 @@
 
   <style scoped>
   div.container-fluid {
-      overflow-y: scroll;
-      overflow-x: hidden;
       background-color: rgb(255, 255, 255);
       color: rgb(18, 18, 18);
       font-weight: normal;
