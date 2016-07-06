@@ -14,6 +14,20 @@
   </div>
 
   <style scoped>
+  nav {
+    background-color: #242830;
+    margin-top: -1px;
+  }
+  nav ul li {
+      color: rgba(255, 255, 255, 0.6);
+      display: block;
+      border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+      -moz-transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      padding-left: 0;
+      position: relative;
+  }
   </style>
 
   <script type="coffee">
