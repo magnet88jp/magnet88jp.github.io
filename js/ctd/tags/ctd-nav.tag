@@ -16,6 +16,7 @@
 
   <style scoped>
   body {
+      font-size: 14px;
       overflow-y: scroll;
       overflow-x: hidden;
       background-color: rgb(255, 255, 255);
@@ -23,7 +24,7 @@
       font-weight: normal;
       line-height: 1.5;
       min-width: 320px;
-      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
       margin: 0px;
   }
   a {
