@@ -18,9 +18,9 @@
 
   <script type="coffee">
     @items = for anchor, i in $(@root._innerHTML) when anchor.tagName == 'A'
-      href : anchor.href
-      title : JSON.stringify(anchor.href)
-      index : i
+      href:  anchor.href
+      title: anchor.innerHTML
+      index: i
   </script>
 
 </ctd-nav>
