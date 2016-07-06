@@ -28,6 +28,15 @@
       padding-left: 0;
       position: relative;
   }
+  nav ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    padding: 20px;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    padding-left: 0;
+    position: relative;
+  }
   </style>
 
   <script type="coffee">
