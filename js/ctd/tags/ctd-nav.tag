@@ -5,7 +5,7 @@
         <nav class="pull">
           <ul class="top-nav">
             <li each={ this.items } >
-              <a href={ href }>{ title }<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
+              <a href={ href } target={ target }>{ title }<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
             </li>
           </ul>
         </nav>
@@ -18,8 +18,9 @@
 
   <script type="coffee">
     @items = for anchor, i in $(@root._innerHTML) when anchor.tagName == 'A'
-      href:  anchor.href
+      href: anchor.href
       title: anchor.innerHTML
+      target: anchor.target
       index: i
   </script>
 
