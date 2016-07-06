@@ -15,20 +15,20 @@
   </div>
 
   <style scoped>
-  .fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  .indicator {
-    position: absolute;
-    right: 0 !important;
+  body {
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background-color: rgb(255, 255, 255);
+      color: rgb(18, 18, 18);
+      font-weight: normal;
+      line-height: 1.5;
+      min-width: 320px;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+      margin: 0px;
   }
   a {
       color: #337ab7;
+      background-color: transparent;
       text-decoration: none;
       -webkit-font-smoothing: antialiased;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
@@ -36,6 +36,10 @@
   nav {
     background-color: #242830;
     margin-top: -1px;
+  }
+  nav ul {
+      list-style: none;
+      padding: 0;
   }
   nav ul li {
       color: rgba(255, 255, 255, 0.6);
@@ -67,6 +71,18 @@
   nav ul li a:hover, nav ul li a:focus {
       text-decoration: none;
       color: rgba(255, 255, 255, 1);
+  }
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .indicator {
+    position: absolute;
+    right: 0 !important;
   }
   </style>
 
