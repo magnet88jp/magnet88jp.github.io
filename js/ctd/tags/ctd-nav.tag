@@ -1,3 +1,4 @@
+
 <ctd-nav>
   <div class="container-fluid">
     <div class="row">
@@ -14,6 +15,18 @@
   </div>
 
   <style scoped>
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .indicator {
+    position: absolute;
+    right: 0 !important;
+  }
   nav {
     background-color: #242830;
     margin-top: -1px;
@@ -22,6 +35,7 @@
       color: rgba(255, 255, 255, 0.6);
       display: block;
       border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+      transition: all 0.5s ease;
       -moz-transition: all 0.5s ease;
       -webkit-transition: all 0.5s ease;
       -o-transition: all 0.5s ease;
@@ -32,8 +46,10 @@
     color: rgba(255, 255, 255, 0.8);
     display: block;
     padding: 20px;
+    transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
     padding-left: 0;
     position: relative;
   }
