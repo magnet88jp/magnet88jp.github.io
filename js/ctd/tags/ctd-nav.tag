@@ -53,6 +53,15 @@
     padding-left: 0;
     position: relative;
   }
+  a:hover, a:focus {
+      color: #f1c40f;
+      text-decoration: none;
+      outline: none;
+  }
+  nav ul li a:hover, nav ul li a:focus {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 1);
+  }
   </style>
 
   <script type="coffee">
