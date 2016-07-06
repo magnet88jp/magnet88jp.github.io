@@ -15,7 +15,7 @@
   </div>
 
   <style scoped>
-  * {
+  ctd-nav {
       overflow-y: scroll;
       overflow-x: hidden;
       background-color: rgb(255, 255, 255);
