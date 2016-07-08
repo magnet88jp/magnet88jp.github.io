@@ -51,7 +51,7 @@
     height: 640px;
     width: 100%;
     z-index: -1;
-    background: transparent url("../img/pixel-screen.png") repeat scroll 0 0;
+    background: transparent url("/img/pixel-screen.png") repeat scroll 0 0;
     opacity: 0.8;
   }
   .logoarea {
