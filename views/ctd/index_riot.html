@@ -2,7 +2,14 @@
 <html lang="ja">
 <head>
   <title>Craft Homepage x Riot.js</title>
+  <link href="//fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <style>
+  ctd-section-video {
+    width: 100%;
+    height: 640px;
+  }
+  </style>
 </head>
 <body id="top">
   <div class="blur-area">
@@ -16,6 +23,7 @@
         <a href="news/index.html">ニュース</a>
         <a href="https://www.netyear.net/craft/forms/inquiry/" target="_blank">お問い合わせ</a>
       </ctd-nav>
+      <ctd-section-video></ctd-section-video>
 
     </header>
   </div><!-- /.blur-area -->
@@ -25,6 +33,7 @@
   <!-- include the tag -->
   <script type="riot/tag" src="../../js/tags/hello_world.tag"></script>
   <script type="riot/tag" src="../../js/ctd/tags/ctd-nav.tag"></script>
+  <script type="riot/tag" src="../../js/ctd/tags/ctd-section-video.tag"></script>
 
   <!-- include riot.js -->
   <script src="http://code.jquery.com/jquery.min.js"></script>
@@ -34,6 +43,7 @@
   <script>
     riot.mount('hello-world');
     riot.mount('ctd-nav');
+    riot.mount('ctd-section-video');
   </script>
 </body>
 </html>
