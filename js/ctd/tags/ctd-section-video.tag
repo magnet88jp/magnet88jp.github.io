@@ -30,6 +30,16 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  @media (min-width: 768px) {
+  .key-visual {
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 110px 7% 0;
+  }
+  .key-visual.textillate {
+    display: none;
+  }
   video {
     position: absolute;
     right: 0;
@@ -37,11 +47,31 @@
     display: block;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
+    /* width: auto; */
     height: auto;
     z-index: -100;
     overflow: hidden;
   }
+  .video-overlay {
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 640px;
+    width: 100%;
+    z-index: -1;
+    background: transparent url("../img/pixel-screen.png") repeat scroll 0 0;
+    opacity: 0.8;
+  }
+  .logoarea {
+    margin-top: 20px;
+    padding-left: 10%;
+  }
+  .logoarea img {
+    /* width: 50%; */
+  }
+}
   </style>
 
   <script type="coffee">
