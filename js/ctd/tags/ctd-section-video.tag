@@ -24,21 +24,11 @@
   <div class="video-overlay"></div>
 
   <style scoped>
-  .container-fluid {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  @media (min-width: 768px) {
   .key-visual {
     font-size: 100px;
     font-family: 'Roboto', sans-serif;
     color: #fff;
     padding: 110px 7% 0;
-  }
-  .key-visual.textillate {
-    display: none;
   }
   video {
     position: absolute;
@@ -68,10 +58,6 @@
     margin-top: 20px;
     padding-left: 10%;
   }
-  .logoarea img {
-    /* width: 50%; */
-  }
-}
   </style>
 
   <script type="coffee">
