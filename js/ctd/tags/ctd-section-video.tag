@@ -24,7 +24,7 @@
   <div class="video-overlay"></div>
 
   <style scoped>
-  ctd-section-video {
+  div.container-fluid {
     width: 100%;
     height: 640px;
     position: relative;
