@@ -107,6 +107,12 @@
       display: block;
       content: '';
   }
+  #nav-toggle span:before {
+    top: -10px;
+  }
+  #nav-toggle span:after {
+    bottom: -10px;
+  }
   </style>
 
   <script type="coffee">
