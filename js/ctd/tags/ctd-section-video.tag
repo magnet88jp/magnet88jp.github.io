@@ -24,13 +24,6 @@
   <div class="video-overlay"></div>
 
   <style scoped>
-  div.container-fluid {
-    width: 100%;
-    height: 640px;
-    position: relative;
-    overflow: hidden;
-    font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-  }
   </style>
 
   <script type="coffee">
