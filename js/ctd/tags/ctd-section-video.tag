@@ -24,11 +24,11 @@
   <div class="video-overlay"></div>
 
   <style scoped>
-  .key-visual {
-    font-size: 100px;
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
-    padding: 110px 7% 0;
+  .pull-right {
+      float: right !important;
+  }
+  .pull-left {
+      float: left !important;
   }
   video {
     position: absolute;
@@ -54,9 +54,58 @@
     background: transparent url("/img/pixel-screen.png") repeat scroll 0 0;
     opacity: 0.8;
   }
+  .key-visual {
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 110px 7% 0;
+  }
   .logoarea {
     margin-top: 20px;
     padding-left: 10%;
+  }
+  .navicon {
+    position: relative;
+    height: 26px;
+    margin-top: 60px;
+    margin-right: 4%;
+  }
+  #nav-toggle {
+    position: absolute;
+    right: 10%;
+    top: 0;
+    cursor: pointer;
+    padding: 10px 35px 16px 0;
+  }
+  #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+      transition: all 500ms ease-in-out;
+      -webkit-transition: all 500ms ease-in-out;
+      -moz-transition: all 500ms ease-in-out;
+      -o-transition: all 500ms ease-in-out;
+      cursor: pointer;
+      border-radius: 1px;
+      -moz-border-radius: 1px;
+      -webkit-border-radius: 1px;
+      -o-border-radius: 1px;
+      height: 5px;
+      width: 35px;
+      background: #fff;
+      position: absolute;
+      display: block;
+      content: '';
+  }
+  #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+      cursor: pointer;
+      border-radius: 1px;
+      -moz-border-radius: 1px;
+      -webkit-border-radius: 1px;
+      -o-border-radius: 1px;
+      height: 5px;
+      width: 35px;
+      background: #353535;
+      position: absolute;
+      display: block;
+      content: '';
   }
   </style>
 
