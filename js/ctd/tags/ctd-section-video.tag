@@ -2,7 +2,7 @@
 
   <div class="container-fluid">
     <div class="row kv-sp">
-      <video autoplay loop poster="img/kv_sp.png">
+      <video autoplay loop poster="/img/kv_sp.png">
         <source src="/movie/craft_movie01.mp4" type="video/mp4">
         <img src="/img/kv_sp.png" alt="" class="hidden-lg">
       </video>
@@ -24,6 +24,13 @@
   <div class="video-overlay"></div>
 
   <style scoped>
+  ctd-section-video {
+    width: 100%;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+    font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  }
   </style>
 
   <script type="coffee">
