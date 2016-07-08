@@ -30,6 +30,18 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  video {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    overflow: hidden;
+  }
   </style>
 
   <script type="coffee">
