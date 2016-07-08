@@ -4,7 +4,7 @@
     <div class="row kv-sp">
       <video autoplay loop poster="/img/kv_sp.png">
         <source src="/movie/craft_movie01.mp4" type="video/mp4">
-        <img src="/img/kv_sp.png" alt="" class="hidden-lg">
+        <img src="/img/kv_sp.png" alt="">
       </video>
       <div class="row">
         <div class="pull-left logoarea">
