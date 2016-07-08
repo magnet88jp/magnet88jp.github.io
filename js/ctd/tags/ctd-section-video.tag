@@ -30,6 +30,10 @@
   .pull-left {
       float: left !important;
   }
+  .row {
+      margin-left: -15px;
+      margin-right: -15px;
+  }  
   video {
     position: absolute;
     right: 0;
