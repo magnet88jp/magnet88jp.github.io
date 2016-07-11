@@ -119,7 +119,14 @@
   }
   </style>
 
-  <script type="coffee">
+  <script>
+  this.on('mount', function(){
+    if ($('.textillate').length) {
+      $('.textillate').textillate();
+    }
+
+    console.log('test3', test3) // Succeeds, fires once (per mount)
+  })
   </script>
 
 </ctd-section-video>
