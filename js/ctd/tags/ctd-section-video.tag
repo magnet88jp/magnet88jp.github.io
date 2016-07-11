@@ -24,15 +24,20 @@
   <div class="video-overlay"></div>
 
   <style scoped>
+  .container-fluid {
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
   .pull-right {
       float: right !important;
   }
   .pull-left {
       float: left !important;
   }
-  .row {
-      margin-left: -15px;
-      margin-right: -15px;
+  .col-xs-12 {
+    width: 100%;
   }
   video {
     position: absolute;
@@ -124,8 +129,6 @@
     if ($('.textillate').length) {
       $('.textillate').textillate();
     }
-
-    console.log('test3') // Succeeds, fires once (per mount)
   })
   </script>
 
