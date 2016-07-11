@@ -125,7 +125,7 @@
       $('.textillate').textillate();
     }
 
-    console.log('test3', test3) // Succeeds, fires once (per mount)
+    console.log('test3') // Succeeds, fires once (per mount)
   })
   </script>
 
