@@ -86,18 +86,12 @@
   }
   </style>
 
-  <script>
-    this.items = [];
-    for(var i = 0; i < this.root._innerHTML.length; i++) {
-      if(this.anchor.tagName == 'A') {
-        this.items.push({
-          href: this.anchor.href,
-          title: this.anchor.innerHTML,
-          target: this.anchor.target,
-          index: i
-        });
-      }
-    }
+  <script type="coffee">
+    @items = for anchor, i in $(@root._innerHTML) when anchor.tagName == 'A'
+      href: anchor.href
+      title: anchor.innerHTML
+      target: anchor.target
+      index: i
   </script>
 
 </ctd-nav>
