@@ -94,9 +94,9 @@
       var $anchor = $(this);
       if($anchor.prop('tagName') == 'A') {
         buf.push({
-          href: anchor.href,
-          title: anchor.innerHTML,
-          target: anchor.target,
+          href: $anchor.attr('href'),
+          title: $anchor.html(),
+          target: $anchor.attr('target'),
           index: i
         });
         i++;
