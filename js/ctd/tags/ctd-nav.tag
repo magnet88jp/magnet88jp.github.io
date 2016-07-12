@@ -90,7 +90,7 @@
 
     var buf = [];
     var i = 0;
-    $(this._innerHTML).each(function(){
+    $(this.parentNode._innerHTML).each(function(){
       var $anchor = $(this);
       if($anchor.prop('tagName') == 'A') {
         buf.push({
