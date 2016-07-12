@@ -87,12 +87,12 @@
   </style>
 
   <script>
-    this.items = [];
+    var self = this;
     var anchor;
-    for(var i = 0; i < this.root._innerHTML.length; i++) {
-      anchor = this.root._innerHTML.get(i);
+    for(var i = 0; i < self.root._innerHTML.length; i++) {
+      anchor = self.root._innerHTML.get(i);
       if(anchor.tagName == 'A') {
-        this.items.push({
+        self.items.push({
           href: anchor.href,
           title: anchor.innerHTML,
           target: anchor.target,
