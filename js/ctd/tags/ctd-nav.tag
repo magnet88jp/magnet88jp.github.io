@@ -87,19 +87,24 @@
   </style>
 
   <script>
-    var self = this;
-    var anchor;
-    for(var i = 0; i < self.root._innerHTML.length; i++) {
-      anchor = self.root._innerHTML.get(i);
-      if(anchor.tagName == 'A') {
-        self.items.push({
+
+    var buf = [];
+    var i = 0;
+    $(this.root._innerHTML).each(function(){
+      var $anchor = $(this);
+      if($anchor.prop('tagName') == 'A') {
+        buf.push({
           href: anchor.href,
           title: anchor.innerHTML,
           target: anchor.target,
           index: i
         });
+        i++;
       }
-    }
+
+    });
+
+    this.items = buf;
   </script>
 
 </ctd-nav>
