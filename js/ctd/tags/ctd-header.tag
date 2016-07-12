@@ -7,7 +7,6 @@
     <a href="news/index.html">ニュース</a>
     <a href="https://www.netyear.net/craft/forms/inquiry/" target="_blank">お問い合わせ</a>
   </ctd-nav>
-  <ctd-section-video></ctd-section-video>
 
   <script>
   </script>
