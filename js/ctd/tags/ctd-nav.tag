@@ -88,12 +88,14 @@
 
   <script>
     this.items = [];
+    var anchor;
     for(var i = 0; i < this.root._innerHTML.length; i++) {
-      if(this.anchor.tagName == 'A') {
+      anchor = this.root._innerHTML.get(i);
+      if(anchor.tagName == 'A') {
         this.items.push({
-          href: this.anchor.href,
-          title: this.anchor.innerHTML,
-          target: this.anchor.target,
+          href: anchor.href,
+          title: anchor.innerHTML,
+          target: anchor.target,
           index: i
         });
       }
