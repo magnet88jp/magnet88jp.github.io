@@ -83,19 +83,6 @@
       -o-border-radius: 1px;
       height: 5px;
       width: 35px;
-      background: #fff;
-      position: absolute;
-      display: block;
-      content: '';
-  }
-  #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-      cursor: pointer;
-      border-radius: 1px;
-      -moz-border-radius: 1px;
-      -webkit-border-radius: 1px;
-      -o-border-radius: 1px;
-      height: 5px;
-      width: 35px;
       background: #353535;
       position: absolute;
       display: block;
@@ -106,6 +93,23 @@
   }
   #nav-toggle span:after {
     bottom: -10px;
+  }
+  #nav-toggle.active span {
+    background-color: transparent;
+  }
+  #nav-toggle.active span:before, #nav-toggle.active span:after {
+    top: 0;
+  }
+  #nav-toggle.active span:before {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+  }
+  #nav-toggle.active span:after {
+    transform: translateY(-10px) rotate(-45deg);
+    -webkit-transform: translateY(-10px) rotate(-45deg);
+    -ms-transform: translateY(-10px) rotate(-45deg);
+    top: 10px;
   }
   </style>
 
