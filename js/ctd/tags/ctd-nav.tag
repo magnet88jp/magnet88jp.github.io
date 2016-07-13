@@ -14,6 +14,9 @@
   </div>
 
   <style scoped>
+  dl, menu, ol, ul {
+    margin: 1em 0;
+  }
   div.container-fluid {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
   }
