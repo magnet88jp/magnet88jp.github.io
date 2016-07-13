@@ -14,6 +14,7 @@
   </style>
 
   <script>
+  $('.pull').hide();
   this.on('mount', function(){
     riot.mount('ctd-nav', {
       items: [
@@ -27,7 +28,6 @@
     });
     riot.mount('ctd-section-video');
 
-    $('.pull').hide();
     $('#nav-toggle').click(function(){
       $('.pull').slideToggle();
       $(this).toggleClass('active');
