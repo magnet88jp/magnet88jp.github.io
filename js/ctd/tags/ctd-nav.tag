@@ -73,9 +73,8 @@
   </style>
 
   <script>
-    var self = this;
+    this.items = opts.items;
     this.on('mount', function(){
-      self.items = opts.items;
       if(opts.initHide) {
         $('.pull').hide();
       }
