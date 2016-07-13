@@ -73,8 +73,7 @@
   </style>
 
   <script>
-//    this.items = this.opts.items;
-    var selfItems = this.opts.items;
+    this.items = this.opts.items;
     var selfObservable = this.opts.observable;
     this.on('mount', function(){
       if(opts.initHide) {
