@@ -74,16 +74,16 @@
 
   <script>
     this.items = this.opts.items;
-    var selfObservable = this.opts.observable;
+//    var selfObservable = this.opts.observable;
     this.on('mount', function(){
       if(opts.initHide) {
         $('.pull').hide();
       }
 
-//      if(opts.observable){
-      if(selfObservable){
-//        opts.observable.on('slideTogglePull', function() {
-        selfObservable.on('slideTogglePull', function() {
+      if(opts.observable){
+//      if(selfObservable){
+        opts.observable.on('slideTogglePull', function() {
+//        selfObservable.on('slideTogglePull', function() {
           $('.pull').slideToggle();
         });
       }
