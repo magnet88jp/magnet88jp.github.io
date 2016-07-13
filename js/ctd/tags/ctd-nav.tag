@@ -39,6 +39,9 @@
       padding-left: 0;
       position: relative;
   }
+  nav ul li:last-child {
+    border: none;
+  }
   nav ul li a {
     color: rgba(255, 255, 255, 0.8);
     display: block;
