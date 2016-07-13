@@ -15,16 +15,16 @@
 
   <style scoped>
   div.container-fluid {
-      background-color: rgb(255, 255, 255);
+/*      background-color: rgb(255, 255, 255);
       color: rgb(18, 18, 18);
       font-weight: normal;
       line-height: 1.5;
-      min-width: 320px;
+      min-width: 320px;*/
       font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-      margin: 0px;
-      font-size: 14px;
+/*      margin: 0px;
+      font-size: 14px;*/
   }
-  a {
+/*  a {
       color: #353535;
       -webkit-transition: all 0.5s;
       -moz-transition: all 0.5s;
@@ -70,7 +70,7 @@
   nav ul li a:hover, nav ul li a:focus {
       text-decoration: none;
       color: rgba(255, 255, 255, 1);
-  }
+  }*/
   .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
