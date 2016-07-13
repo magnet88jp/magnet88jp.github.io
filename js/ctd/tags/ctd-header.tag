@@ -4,6 +4,7 @@
 
   <style scoped>
   ctd-section-video {
+    display: block;
 /*    width: 100%;
     height: 640px;
     position: relative;
