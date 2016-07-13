@@ -122,7 +122,7 @@
 
   slideTogglePull() {
     this.opts.observable.trigger('slideTogglePull');
-    $(this).toggleClass('active');
+    $('#nav-toggle').toggleClass('active');
     return false;
   }
   </script>
