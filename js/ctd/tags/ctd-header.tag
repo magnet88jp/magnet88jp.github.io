@@ -7,6 +7,7 @@
     width: 100%;
     height: 640px;
     position: relative;
+    overflow: hidden;
   }
   </style>
 
