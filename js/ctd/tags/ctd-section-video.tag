@@ -118,7 +118,8 @@
   slideTogglePull() {
     console.log('ctd-section-video:slideTogglePull');
     console.log('ctd-section-video:this.parent='+this.parent);
-    this.parent.slideTogglePull();
+    console.log('ctd-section-video:this.root='+this.root);
+//    this.parent.slideTogglePull();
   }
   </script>
 
