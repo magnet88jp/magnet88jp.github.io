@@ -4,9 +4,9 @@
 
   <style scoped>
   ctd-section-video {
-    width: 100%;
+/*    width: 100%;
     height: 640px;
-/*    position: relative;
+    position: relative;
     overflow: hidden;*/
   }
   </style>
