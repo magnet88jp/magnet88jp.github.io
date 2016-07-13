@@ -73,14 +73,17 @@
   </style>
 
   <script>
-    this.items = opts.items;
+    var self = this;
     this.on('mount', function(){
+      self.items = opts.items;
       if(opts.initHide) {
         $('.pull').hide();
       }
-      opts.observable.on('slideTogglePull', function() {
-        $('.pull').slideToggle();
-      });
+      if(opts.observable){
+        opts.observable.on('slideTogglePull', function() {
+          $('.pull').slideToggle();
+        });
+      }
     });
   </script>
 
