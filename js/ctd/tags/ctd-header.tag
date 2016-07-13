@@ -3,6 +3,9 @@
   <ctd-section-video></ctd-section-video>
 
   <style scoped>
+  ctd-nav {
+    display: block;
+  }
   ctd-section-video {
     display: block;
 /*    width: 100%;
