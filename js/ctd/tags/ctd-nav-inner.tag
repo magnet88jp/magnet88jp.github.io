@@ -85,6 +85,25 @@
   }
   </style>
 
-  <script></script>
+  <script>
+
+    var buf = [];
+    var i = 0;
+    $(this.root._innerHTML).each(function(){
+      var $anchor = $(this);
+      if($anchor.prop('tagName') == 'A') {
+        buf.push({
+          href: $anchor.attr('href'),
+          title: $anchor.html(),
+          target: $anchor.attr('target'),
+          index: i
+        });
+        i++;
+      }
+
+    });
+
+    this.items = buf;
+  </script>
 
 </ctd-nav>

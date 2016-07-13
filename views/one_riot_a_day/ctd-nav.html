@@ -5,14 +5,7 @@
 </head>
 <body>
   <!-- place the custom tag anywhere inside the body -->
-  <ctd-nav>
-    <a href="index.html">ホーム</a>
-    <a href="company/index.html">会社概要</a>
-    <a href="solution/index.html">ソリューション</a>
-    <a href="recruit/index.html">採用情報</a>
-    <a href="news/index.html">ニュース</a>
-    <a href="https://www.netyear.net/craft/forms/inquiry/" target="_blank">お問い合わせ</a>
-  </ctd-nav>
+  <ctd-nav></ctd-nav>
   <!-- include the tag -->
   <script type="riot/tag" src="../../js/ctd/tags/ctd-nav.tag"></script>
   <!-- include riot.js -->
@@ -20,6 +13,17 @@
   <script src="http://cdn.jsdelivr.net/riot/2.4/riot+compiler.min.js"></script>
   <script src="http://coffeescript.org/extras/coffee-script.js"></script>
   <!-- mount the tag -->
-  <script>riot.mount('ctd-nav')</script>
+  <script>
+    riot.mount('ctd-nav',{
+      items: [
+        { href:"index.html",  title: "ホーム"},
+        { href:"company/index.html",  title: "会社概要"},
+        { href:"solution/index.html",  title: "ソリューション"},
+        { href:"recruit/index.html",  title: "採用情報"},
+        { href:"news/index.html",  title: "ニュース"},
+        { href:"news/index.html",  title: "お問い合わせ",  target: "_blank"}
+      ]
+    })
+  </script>
 </body>
 </html>
