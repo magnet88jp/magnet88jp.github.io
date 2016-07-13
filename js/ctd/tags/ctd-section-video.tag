@@ -117,7 +117,6 @@
   })
 
   slideTogglePull() {
-    console.log('ctd-section-video:slideTogglePull');
     this.opts.observable.trigger('slideTogglePull');
     $(this).toggleClass('active');
     return false;

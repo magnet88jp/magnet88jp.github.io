@@ -25,7 +25,8 @@
         { href:"news/index.html",  title: "ニュース"},
         { href:"news/index.html",  title: "お問い合わせ",  target: "_blank"}
       ],
-      observable: sharedObservable
+      observable: sharedObservable,
+      initHide: true
     });
     riot.mount('ctd-section-video',{
       observable: sharedObservable
@@ -33,9 +34,6 @@
 
     //$('.pull').hide();
   })
-  slideTogglePull() {
-    console.log('ctd-header:slideTogglePull');
-  }
 
   </script>
 

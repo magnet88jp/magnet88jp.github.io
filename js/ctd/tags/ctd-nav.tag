@@ -75,8 +75,10 @@
   <script>
     this.items = opts.items;
     this.on('mount', function(){
+      if(opts.initHide) {
+        $('.pull').hide();
+      }
       opts.observable.on('slideTogglePull', function() {
-        console.log('ctd-nav:slideTogglePull');
         $('.pull').slideToggle();
       });
     });
