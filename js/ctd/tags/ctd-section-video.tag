@@ -119,7 +119,8 @@
     console.log('ctd-section-video:slideTogglePull');
     console.log('ctd-section-video:this.parent='+this.parent);
     console.log('ctd-section-video:this.root='+this.root);
-//    this.parent.slideTogglePull();
+    //    this.parent.slideTogglePull();
+    this.root.slideTogglePull();
   }
   </script>
 
