@@ -21,6 +21,7 @@
         { href:"news/index.html",  title: "お問い合わせ",  target: "_blank"}
       ]
     });
+    riot.mount('ctd-section-video');
   })
   </script>
 
