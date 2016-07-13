@@ -31,14 +31,7 @@
       observable: sharedObservable
     });
 
-    $('.pull').hide();
-    /*
-    $('#nav-toggle').click(function(){
-      $('.pull').slideToggle();
-      $(this).toggleClass('active');
-      return false;
-    });
-    */
+    //$('.pull').hide();
   })
   slideTogglePull() {
     console.log('ctd-header:slideTogglePull');
