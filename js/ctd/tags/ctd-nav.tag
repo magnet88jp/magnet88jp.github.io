@@ -77,6 +77,7 @@
     this.on('mount', function(){
       opts.observable.on('slideTogglePull', function() {
         console.log('ctd-nav:slideTogglePull');
+        $('.pull').slideToggle();
       });
     });
   </script>

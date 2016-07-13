@@ -28,15 +28,17 @@
       observable: sharedObservable
     });
     riot.mount('ctd-section-video',{
-      observable: sharedObservable      
+      observable: sharedObservable
     });
 
     $('.pull').hide();
+    /*
     $('#nav-toggle').click(function(){
       $('.pull').slideToggle();
       $(this).toggleClass('active');
       return false;
     });
+    */
   })
   slideTogglePull() {
     console.log('ctd-header:slideTogglePull');
