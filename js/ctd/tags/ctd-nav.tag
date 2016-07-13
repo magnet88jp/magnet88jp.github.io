@@ -85,6 +85,8 @@
   }
   </style>
 
-  <script></script>
+  <script>
+    this.items = opts.items
+  </script>
 
 </ctd-nav>
