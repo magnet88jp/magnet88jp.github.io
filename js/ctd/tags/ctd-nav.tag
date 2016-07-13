@@ -73,17 +73,20 @@
   </style>
 
   <script>
-    this.items = opts.items;
+    this.items = this.opts.items;
+    var selfItems = this.opts.items;
+    var selfObservable = this.opts.observable;
     this.on('mount', function(){
       if(opts.initHide) {
         $('.pull').hide();
       }
-/*
-      if(opts.observable){
-        opts.observable.on('slideTogglePull', function() {
+
+//      if(opts.observable){
+      if(selfObservable){
+        selfObservable.on('slideTogglePull', function() {
           $('.pull').slideToggle();
         });
-      }*/
+      }
     });
   </script>
 
