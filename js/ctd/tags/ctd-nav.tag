@@ -84,7 +84,7 @@
 //      if(opts.observable){
       if(selfObservable){
 //        opts.observable.on('slideTogglePull', function() {
-      selfObservable.on('slideTogglePull', function() {
+        selfObservable.on('slideTogglePull', function() {
           $('.pull').slideToggle();
         });
       }
