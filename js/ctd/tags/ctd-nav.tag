@@ -36,12 +36,12 @@
       color: #f1c40f;
       text-decoration: none;
       outline: none;
-  }
+  }*/
   nav {
     background-color: #242830;
     margin-top: -1px;
   }
-  nav ul {
+/*  nav ul {
       list-style: none;
       padding: 0;
   }
