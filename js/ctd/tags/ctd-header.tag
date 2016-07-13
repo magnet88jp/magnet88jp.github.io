@@ -3,6 +3,10 @@
   <ctd-section-video></ctd-section-video>
 
   <style scoped>
+  ctd-nav {
+    background-color: #242830;
+    margin-top: -1px;
+  }
   ctd-section-video {
     width: 100%;
     height: 640px;
