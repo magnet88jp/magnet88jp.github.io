@@ -33,11 +33,11 @@
       $(this).toggleClass('active');
       return false;
     });
+    slideTogglePull() {
+      console.log('ctd-header:slideTogglePull');
+    }
 
   })
-  slideTogglePull() {
-    console.log('ctd-header:slideTogglePull');
-  }
   </script>
 
 </ctd-header>
