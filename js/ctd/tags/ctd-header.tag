@@ -35,6 +35,9 @@
     });
 
   })
+  slideTogglePull() {
+    console.log('ctd-header:slideTogglePull');
+  }
   </script>
 
 </ctd-header>
