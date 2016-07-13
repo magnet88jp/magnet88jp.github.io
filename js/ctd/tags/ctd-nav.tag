@@ -75,10 +75,10 @@
   <script>
     this.items = opts.items;
     this.on('mount', function(){
-      this.opts.observable.on('slideTogglePull', function() {
+      opts.observable.on('slideTogglePull', function() {
         console.log('ctd-nav:slideTogglePull');
       });
-    }
+    });
   </script>
 
 </ctd-nav>
