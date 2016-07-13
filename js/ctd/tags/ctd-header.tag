@@ -1,5 +1,6 @@
 <ctd-header>
   <ctd-nav></ctd-nav>
+  <ctd-section-video></ctd-section-video>
 
   <style scoped>
   ctd-section-video {
@@ -19,7 +20,7 @@
         { href:"news/index.html",  title: "ニュース"},
         { href:"news/index.html",  title: "お問い合わせ",  target: "_blank"}
       ]
-    });    
+    });
   })
   </script>
 
