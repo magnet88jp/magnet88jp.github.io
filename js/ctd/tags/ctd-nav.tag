@@ -91,6 +91,8 @@
     var i = 0;
     console.log('DEBUG1:' + JSON.stringify(this.root._innerHTML));
     console.log('DEBUG2:' + JSON.stringify(this.root.innerHTML));
+    console.log('DEBUG3:' + JSON.stringify(this.parent._innerHTML));
+    console.log('DEBUG4:' + JSON.stringify(this.parent.innerHTML));
     $(this.root._innerHTML).each(function(){
       var $anchor = $(this);
       if($anchor.prop('tagName') == 'A') {
