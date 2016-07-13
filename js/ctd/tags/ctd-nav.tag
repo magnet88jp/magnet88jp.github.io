@@ -24,7 +24,7 @@
 /*      margin: 0px;
       font-size: 14px;*/
   }
-/*  a {
+  a {
       color: #353535;
       -webkit-transition: all 0.5s;
       -moz-transition: all 0.5s;
@@ -36,12 +36,12 @@
       color: #f1c40f;
       text-decoration: none;
       outline: none;
-  }*/
+  }
   nav {
     background-color: #242830;
     margin-top: -1px;
   }
-/*  nav ul {
+  nav ul {
       list-style: none;
       padding: 0;
   }
@@ -70,7 +70,7 @@
   nav ul li a:hover, nav ul li a:focus {
       text-decoration: none;
       color: rgba(255, 255, 255, 1);
-  }*/
+  }
   .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
