@@ -15,6 +15,7 @@
 
   <script>
   this.on('mount', function(){
+    var sharedObservable = riot.observable();
     riot.mount('ctd-nav', {
       items: [
         { href:"index.html",  title: "ホーム"},
@@ -23,9 +24,12 @@
         { href:"recruit/index.html",  title: "採用情報"},
         { href:"news/index.html",  title: "ニュース"},
         { href:"news/index.html",  title: "お問い合わせ",  target: "_blank"}
-      ]
+      ],
+      observable: sharedObservable
     });
-    riot.mount('ctd-section-video');
+    riot.mount('ctd-section-video',{
+      observable: sharedObservable      
+    });
 
     $('.pull').hide();
     $('#nav-toggle').click(function(){
