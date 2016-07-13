@@ -120,9 +120,10 @@
     }
   })
 
-  slideTogglePull() {
+  slideTogglePull(e) {
     this.opts.observable.trigger('slideTogglePull');
-    $('#nav-toggle').toggleClass('active');
+//    $('#nav-toggle').toggleClass('active');
+    $(e.target).toggleClass('active');
     return false;
   }
   </script>
