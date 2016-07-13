@@ -11,7 +11,7 @@
           <a href="index.html"><img src="/img/logo_netyearcraft.png" alt="NETYEAR Craft" /></a>
         </div>
         <div class="pull-right navicon">
-          <a id="nav-toggle" class="nav-slide-button" href="#"><span></span></a>
+          <a id="nav-toggle" class="nav-slide-button" href="#" onclick="{ slideTogglePull }"><span></span></a>
         </div>
       </div>
       <div class="row">
@@ -115,6 +115,9 @@
       $('.textillate').textillate();
     }
   })
+  slideTogglePull() {
+    console.log('slideTogglePull');
+  }
   </script>
 
 </ctd-section-video>
