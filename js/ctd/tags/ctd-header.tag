@@ -5,14 +5,11 @@
   <style scoped>
   ctd-nav {
     display: block;
+    background-color: #242830;
   }
   ctd-section-video {
     display: block;
     position: relative;
-/*    width: 100%;
-    height: 640px;
-    position: relative;
-    overflow: hidden;*/
   }
   </style>
 
