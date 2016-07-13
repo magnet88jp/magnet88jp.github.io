@@ -74,9 +74,11 @@
 
   <script>
     this.items = opts.items;
-    this.opts.observable.on('slideTogglePull', function() {
-      console.log('ctd-nav:slideTogglePull');
-    });
+    this.on('mount', function(){
+      this.opts.observable.on('slideTogglePull', function() {
+        console.log('ctd-nav:slideTogglePull');
+      });
+    }
   </script>
 
 </ctd-nav>
