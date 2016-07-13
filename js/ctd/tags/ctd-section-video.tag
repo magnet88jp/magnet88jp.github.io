@@ -121,9 +121,10 @@
   })
 
   slideTogglePull(e) {
-    this.opts.observable.trigger('slideTogglePull');
-//    $('#nav-toggle').toggleClass('active');
-    $(e.target).toggleClass('active');
+    if(this.opts.observable){
+      this.opts.observable.trigger('slideTogglePull');
+      $(e.target).toggleClass('active');
+    }
     return false;
   }
   </script>
