@@ -8,14 +8,14 @@
     <a href="https://www.netyear.net/craft/forms/inquiry/" target="_blank">お問い合わせ</a>
   </ctd-nav>
 
-  <script>
-  </script>
-
   <style scoped>
   ctd-section-video {
     width: 100%;
     height: 640px;
   }
   </style>
+
+  <script>
+  </script>
 
 </ctd-header>

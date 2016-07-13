@@ -89,6 +89,7 @@
 
     var buf = [];
     var i = 0;
+    console.log('DEBUG1:' + this.root._innerHTML.length);
     $(this.root._innerHTML).each(function(){
       var $anchor = $(this);
       if($anchor.prop('tagName') == 'A') {
