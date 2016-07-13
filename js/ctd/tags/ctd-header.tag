@@ -27,7 +27,7 @@
     });
     riot.mount('ctd-section-video');
 
-    $('#nav-toggle').hide();
+    $('.pull').hide();
     $('#nav-toggle').click(function(){
       $('.pull').slideToggle();
       $(this).toggleClass('active');
