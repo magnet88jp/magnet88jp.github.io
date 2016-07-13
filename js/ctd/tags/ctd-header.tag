@@ -22,6 +22,13 @@
       ]
     });
     riot.mount('ctd-section-video');
+
+    $('#nav-toggle').click(function(){
+      $('.pull').slideToggle();
+      $(this).toggleClass('active');
+      return false;
+    });
+
   })
   </script>
 

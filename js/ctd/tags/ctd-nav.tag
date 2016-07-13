@@ -15,28 +15,8 @@
 
   <style scoped>
   div.container-fluid {
-/*      background-color: rgb(255, 255, 255);
-      color: rgb(18, 18, 18);
-      font-weight: normal;
-      line-height: 1.5;
-      min-width: 320px;*/
       font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-/*      margin: 0px;
-      font-size: 14px;*/
   }
-/*  a {
-      color: #353535;
-      -webkit-transition: all 0.5s;
-      -moz-transition: all 0.5s;
-      -o-transition: all 0.5s;
-      transition: all 0.5s;
-      text-decoration: none;
-  }
-  a:hover, a:focus {
-      color: #f1c40f;
-      text-decoration: none;
-      outline: none;
-  }*/
   nav {
     background-color: #242830;
     margin-top: -1px;
