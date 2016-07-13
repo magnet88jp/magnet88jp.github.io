@@ -123,7 +123,10 @@
   slideTogglePull(e) {
     if(this.opts.observable){
       this.opts.observable.trigger('slideTogglePull');
-      $(e.target).toggleClass('active');
+      //$(e.target).toggleClass('active');
+      // case of e.target occurs multi pattan, for example anchor or span
+      // so specified by id.
+      $('#nav-toggle').toggleClass('active');
     }
     return false;
   }
