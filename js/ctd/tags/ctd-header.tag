@@ -6,6 +6,7 @@
   ctd-section-video {
     width: 100%;
     height: 640px;
+    position: relative;
   }
   </style>
 
