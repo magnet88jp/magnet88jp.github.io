@@ -86,6 +86,7 @@
       if(self.observable){
 //        opts.observable.on('slideTogglePull', function() {
         self.observable.on('slideTogglePull', function() {
+          console.log('DEBUG:this check');
           $('.pull').slideToggle();
         });
       }
