@@ -14,7 +14,8 @@
   </style>
 
   <script>
-  this.items = this.opts.items;
+//  this.items = this.opts.items;
+  this.items = this.opts.items.slice();
   this.init_nav_hide = this.opts.init_nav_hide;
   this.observable = riot.observable();
 /*
