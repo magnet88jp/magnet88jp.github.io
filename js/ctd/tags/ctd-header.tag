@@ -1,5 +1,5 @@
 <ctd-header>
-  <ctd-nav items={ items } inithide={ inithide } observable={ observable }></ctd-nav>
+  <ctd-nav items={ items } init_hide={ init_hide } observable={ observable }></ctd-nav>
   <ctd-section-video observable={ this.observable }></ctd-section-video>
 
   <style scoped>
@@ -22,7 +22,7 @@
     { href:"news/index.html",  title: "ニュース"},
     { href:"news/index.html",  title: "お問い合わせ",  target: "_blank"}
   ];
-  this.inithide = true;
+  this.init_hide = true;
   this.observable = riot.observable();
   </script>
 
