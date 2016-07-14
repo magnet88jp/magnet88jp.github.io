@@ -1,5 +1,5 @@
 <ctd-header>
-  <ctd-nav items={ this.items } inithide="" observable={ this.observable }></ctd-nav>
+  <ctd-nav items={ this.items } inithide=false observable={ this.observable }></ctd-nav>
   <ctd-section-video observable={ this.observable }></ctd-section-video>
 
   <style scoped>
