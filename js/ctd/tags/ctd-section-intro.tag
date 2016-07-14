@@ -12,12 +12,12 @@
     this.title = opts.title || 'no title';
 
     this.on('mount', function(){
-      $('.wp1').addClass('animated fadeInLeft');
-/*      $('.wp1').waypoint(function(){
+//      $('.wp1').addClass('animated fadeInLeft');
+      $('.wp1').waypoint(function(){
         $(this).addClass('animated fadeInLeft');
       }, {
         offset: 'bottom-in-view'
-      });*/
+      });
     })
   </script>
 
