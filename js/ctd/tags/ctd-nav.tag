@@ -74,7 +74,7 @@
 
   <script>
     this.items = this.opts.items;
-//    var selfObservable = this.opts.observable;
+    this.observable = opts.observable;
     this.init_hide = this.opts.init_hide;
     var self = this;
     this.on('mount', function(){
@@ -82,10 +82,10 @@
         $('.pull').hide();
       }
 
-      if(opts.observable){
-//      if(selfObservable){
-        opts.observable.on('slideTogglePull', function() {
-//        selfObservable.on('slideTogglePull', function() {
+//      if(opts.observable){
+      if(self.observable){
+//        opts.observable.on('slideTogglePull', function() {
+        self.observable.on('slideTogglePull', function() {
           $('.pull').slideToggle();
         });
       }
