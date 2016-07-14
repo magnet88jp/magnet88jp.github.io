@@ -13,5 +13,15 @@
   </script>
 
   <style scoped>
+  .mt0 {
+    margin-top: 0 !important;
+  }
+  h1 {
+    margin: 0.67em 0;
+    color: #353535;
+    font-size: 54px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
   </style>
 </ctd-section-intro>
