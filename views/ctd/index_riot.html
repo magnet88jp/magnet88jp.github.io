@@ -9,6 +9,7 @@
 <body id="top">
   <div class="blur-area">
     <ctd-header></ctd-header>
+    <ctd-section-intro title="Service"></ctd-section-intro>
   </div><!-- /.blur-area -->
 
   <!-- place the custom tag anywhere inside the body -->
@@ -18,6 +19,7 @@
   <script type="riot/tag" src="../../js/ctd/tags/ctd-nav.tag"></script>
   <script type="riot/tag" src="../../js/ctd/tags/ctd-section-video.tag"></script>
   <script type="riot/tag" src="../../js/ctd/tags/ctd-header.tag"></script>
+  <script type="riot/tag" src="../../js/ctd/tags/ctd-section-intro.tag"></script>
   <!-- include riot.js -->
   <script src="http://code.jquery.com/jquery.min.js"></script>
   <script src="../../js/libs/jquery.lettering.js"></script>
@@ -26,7 +28,7 @@
   <script src="http://coffeescript.org/extras/coffee-script.js"></script>
   <!-- mount the tag -->
   <script>
-    riot.mount('hello-world, ctd-header');
+    riot.mount('hello-world, ctd-header, ctd-section-intro');
   </script>
 </body>
 </html>
