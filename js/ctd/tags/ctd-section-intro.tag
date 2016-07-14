@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-8 col-xs-offset-2">
-        <h1 class="wp1 text-center mt0 animated fadeInLeft">{ title }</h1>
+        <h1 class="wp1 text-center mt0">{ title }</h1>
         <p><yield/></p>
       </div>
     </div>
@@ -12,11 +12,12 @@
     this.title = opts.title || 'no title';
 
     this.on('mount', function(){
-      $('.wp1').waypoint(function(){
+      $('.wp1').addClass('animated fadeInLeft');
+/*      $('.wp1').waypoint(function(){
         $(this).addClass('animated fadeInLeft');
       }, {
         offset: 'bottom-in-view'
-      });
+      });*/
     })
   </script>
 
