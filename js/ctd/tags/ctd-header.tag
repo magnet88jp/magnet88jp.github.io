@@ -1,5 +1,5 @@
 <ctd-header>
-  <ctd-nav items={ items } init_hide={ init_hide } observable={ observable }></ctd-nav>
+  <ctd-nav items={ items } init_hide={ init_nav_hide } observable={ observable }></ctd-nav>
   <ctd-section-video observable={ this.observable }></ctd-section-video>
 
   <style scoped>
@@ -14,6 +14,10 @@
   </style>
 
   <script>
+  this.items = this.opts.items;
+  this.init_nav_hide = this.opts.init_nav_hide;
+  this.observable = riot.observable();
+/*
   this.items = [
     { href:"index.html",  title: "ホーム"},
     { href:"company/index.html",  title: "会社概要"},
@@ -24,6 +28,7 @@
   ];
   this.init_hide = true;
   this.observable = riot.observable();
+*/
   </script>
 
 </ctd-header>

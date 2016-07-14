@@ -13,6 +13,24 @@
     </div>
   </div>
 
+  <script>
+    this.items = this.opts.items;
+    this.observable = this.opts.observable;
+    this.init_hide = this.opts.init_hide;
+    var self = this;
+    this.on('mount', function(){
+      if(self.init_hide) {
+        $('.pull').hide();
+      }
+
+      if(self.observable){
+        self.observable.on('slideTogglePull', function() {
+          $('.pull').slideToggle();
+        });
+      }
+    });
+  </script>
+
   <style scoped>
   dl, menu, ol, ul {
     margin: 1em 0;
@@ -71,23 +89,4 @@
     right: 0 !important;
   }
   </style>
-
-  <script>
-    this.items = this.opts.items;
-    this.observable = this.opts.observable;
-    this.init_hide = this.opts.init_hide;
-    var self = this;
-    this.on('mount', function(){
-      if(self.init_hide) {
-        $('.pull').hide();
-      }
-
-      if(self.observable){
-        self.observable.on('slideTogglePull', function() {
-          $('.pull').slideToggle();
-        });
-      }
-    });
-  </script>
-
 </ctd-nav>
