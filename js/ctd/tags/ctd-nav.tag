@@ -4,7 +4,7 @@
       <div class="col-xs-8 col-xs-offset-2">
         <nav class="pull">
           <ul class="top-nav">
-            <li each={ this.items } >
+            <li each={ items } >
               <a href={ href } target={ target }>{ title }<span class="indicator"><i class="fa fa-angle-right"></i></span></a>
             </li>
           </ul>
@@ -74,7 +74,7 @@
 
   <script>
     this.items = this.opts.items;
-    this.observable = opts.observable;
+    this.observable = this.opts.observable;
     this.init_hide = this.opts.init_hide;
     var self = this;
     this.on('mount', function(){
@@ -82,11 +82,8 @@
         $('.pull').hide();
       }
 
-//      if(opts.observable){
       if(self.observable){
-//        opts.observable.on('slideTogglePull', function() {
         self.observable.on('slideTogglePull', function() {
-          console.log('DEBUG:this check');
           $('.pull').slideToggle();
         });
       }
