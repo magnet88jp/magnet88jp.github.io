@@ -12,7 +12,6 @@
     this.title = opts.title || 'no title';
 
     this.on('mount', function(){
-//      $('.wp1').addClass('animated fadeInLeft');
       $('.wp1').waypoint(function(){
         $(this).addClass('animated fadeInLeft');
       }, {
@@ -51,16 +50,6 @@
     word-spacing: 1px;
     line-height: 26px;
     font-size: 14px;
-  }
-  .fadeInLeft {
-      -webkit-animation-name: fadeInLeft;
-      animation-name: fadeInLeft;
-  }
-  .animated {
-      -webkit-animation-duration: 1s;
-      animation-duration: 1s;
-      -webkit-animation-fill-mode: both;
-      animation-fill-mode: both;
   }
   </style>
 </ctd-section-intro>
