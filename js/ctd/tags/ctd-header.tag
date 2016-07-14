@@ -22,9 +22,8 @@
     { href:"news/index.html",  title: "ニュース"},
     { href:"news/index.html",  title: "お問い合わせ",  target: "_blank"}
   ];
-  this.inithide = false;
-  var sharedObservable = riot.observable();
-  this.observable = sharedObservable;
+  this.inithide = true;
+  this.observable = riot.observable();
   </script>
 
 </ctd-header>
