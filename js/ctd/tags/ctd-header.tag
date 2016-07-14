@@ -1,5 +1,5 @@
 <ctd-header>
-  <ctd-nav items={ this.items } inithide={ this.inithide } observable={ this.observable }></ctd-nav>
+  <ctd-nav items={ this.items } inithide="true" observable={ this.observable }></ctd-nav>
   <ctd-section-video observable={ this.observable }></ctd-section-video>
 
   <style scoped>
@@ -22,7 +22,7 @@
     { href:"news/index.html",  title: "ニュース"},
     { href:"news/index.html",  title: "お問い合わせ",  target: "_blank"}
   ];
-  this.inithide = true;
+//  this.inithide = true;
   var sharedObservable = riot.observable();
   this.observable = sharedObservable;
   </script>
