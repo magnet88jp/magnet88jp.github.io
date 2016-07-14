@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-8 col-xs-offset-2">
-        <h1 class="wp1 text-center mt0">{ title }</h1>
+        <h1 class="wp1 text-center mt0 animated fadeInLeft">{ title }</h1>
         <p><yield/></p>
       </div>
     </div>
