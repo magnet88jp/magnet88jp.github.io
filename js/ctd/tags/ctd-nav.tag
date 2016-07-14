@@ -75,8 +75,10 @@
   <script>
     this.items = this.opts.items;
 //    var selfObservable = this.opts.observable;
+    var initHide = this.opts.initHide;
+    console.log("DEBUG:initHide=" + initHide);
     this.on('mount', function(){
-      if(opts.initHide) {
+      if(initHide) {
         $('.pull').hide();
       }
 
