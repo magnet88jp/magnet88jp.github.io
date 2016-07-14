@@ -1,6 +1,6 @@
 <ctd-header>
-  <ctd-nav></ctd-nav>
-  <ctd-section-video></ctd-section-video>
+  <ctd-nav items={ this.items } initHide="true" observable={ this.observable }></ctd-nav>
+  <ctd-section-video observable={ this.observable }></ctd-section-video>
 
   <style scoped>
   ctd-nav {
@@ -14,27 +14,16 @@
   </style>
 
   <script>
-  this.on('mount', function(){
-    var sharedObservable = riot.observable();
-    riot.mount('ctd-nav', {
-      items: [
-        { href:"index.html",  title: "ホーム"},
-        { href:"company/index.html",  title: "会社概要"},
-        { href:"solution/index.html",  title: "ソリューション"},
-        { href:"recruit/index.html",  title: "採用情報"},
-        { href:"news/index.html",  title: "ニュース"},
-        { href:"news/index.html",  title: "お問い合わせ",  target: "_blank"}
-      ],
-      observable: sharedObservable,
-      initHide: true
-    });
-    riot.mount('ctd-section-video',{
-      observable: sharedObservable
-    });
-
-    //$('.pull').hide();
-  })
-
+  this.items = [
+    { href:"index.html",  title: "ホーム"},
+    { href:"company/index.html",  title: "会社概要"},
+    { href:"solution/index.html",  title: "ソリューション"},
+    { href:"recruit/index.html",  title: "採用情報"},
+    { href:"news/index.html",  title: "ニュース"},
+    { href:"news/index.html",  title: "お問い合わせ",  target: "_blank"}
+  ];
+  var sharedObservable = riot.observable();
+  this.observable = sharedObservable;
   </script>
 
 </ctd-header>
