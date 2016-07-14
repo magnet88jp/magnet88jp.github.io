@@ -8,7 +8,7 @@
 <body>
   <!-- place the custom tag anywhere inside the body -->
   <!--ctd-header items={ header_items } init_nav_hide={ init_nav_hide }></ctd-header-->
-  <ctd-header init_nav_hide={ init_nav_hide }></ctd-header>
+  <ctd-header></ctd-header>
   <!--ctd-header></ctd-header-->
   <!-- include the tag -->
   <script type="riot/tag" src="../../js/ctd/tags/ctd-nav.tag"></script>
@@ -46,7 +46,7 @@
         { href:"news/index.html",  title: "ニュース"},
         { href:"news/index.html",  title: "お問い合わせ",  target: "_blank"}
       ],
-      init_nav_hide: false
+      init_nav_hide: true
     });
   </script>
 </body>
