@@ -7,8 +7,8 @@
 </head>
 <body>
   <!-- place the custom tag anywhere inside the body -->
-  <ctd-header items={ header_items } init_nav_hide={ init_nav_hide }></ctd-header>
-  <!--ctd-header></ctd-header-->
+  <!--ctd-header items={ header_items } init_nav_hide={ init_nav_hide }></ctd-header-->
+  <ctd-header init_nav_hide={ init_nav_hide }></ctd-header>
   <!--ctd-header></ctd-header-->
   <!-- include the tag -->
   <script type="riot/tag" src="../../js/ctd/tags/ctd-nav.tag"></script>
@@ -20,6 +20,7 @@
   <script src="../../js/libs/jquery.textillate.js"></script>
 
   <script>
+  /*
     var header_items = [
       { href:"index.html",  title: "ホーム"},
       { href:"company/index.html",  title: "会社概要"},
@@ -29,13 +30,14 @@
       { href:"news/index.html",  title: "お問い合わせ",  target: "_blank"}
     ];
     var init_nav_hide = false;
+    */
   </script>
 
   <script src="http://cdn.jsdelivr.net/riot/2.4/riot+compiler.min.js"></script>
   <!-- mount the tag -->
   <script>
-  riot.mount('ctd-header');
-  /*
+  //riot.mount('ctd-header');
+
     riot.mount('ctd-header', {
       items: [
         { href:"index.html",  title: "ホーム"},
@@ -45,9 +47,9 @@
         { href:"news/index.html",  title: "ニュース"},
         { href:"news/index.html",  title: "お問い合わせ",  target: "_blank"}
       ],
-      init_nav_hide: true
+      init_nav_hide: false
     });
-    */
+    
   </script>
 </body>
 </html>
