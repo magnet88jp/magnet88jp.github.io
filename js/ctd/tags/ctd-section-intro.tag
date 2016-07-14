@@ -23,5 +23,25 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
   }
+  h1::after {
+    content: " ";
+    border: solid 4px #f1c40f;
+    display: block;
+    width: 45px;
+    margin: 25px auto;
+  }
+  .intro p {
+    margin: 50px 0 0;
+    line-height: 1.8;
+  }
+  h1 + p, .slides h2 + p {
+    text-align: center;
+  }
+  p {
+    color: #121212;
+    word-spacing: 1px;
+    line-height: 26px;
+    font-size: 14px;
+  }
   </style>
 </ctd-section-intro>
