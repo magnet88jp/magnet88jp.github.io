@@ -6,6 +6,17 @@
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="../../css/libs/bootstrap.min.css" rel="stylesheet" type="text/css">
   <style>
+  body {
+      margin: 0;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background-color: #fff;
+      color: #121212;
+      font-weight: normal;
+      line-height: 1.5;
+      min-width: 320px;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  }
   ctd-section-intro {
     background-color: #fff;
     padding: 100px 0 40px 0;
@@ -20,6 +31,7 @@
       ネットイヤークラフトは、お客さまのウェブサイト構築について要件定義・設計・実装・運用までを<br class="hidden-sm hidden-xs">
       ワンストップでサポートする体制を実現いたします。
     </ctd-section-intro>
+    <ctd-div-features></ctd-div-features>
   </div><!-- /.blur-area -->
 
   <!-- place the custom tag anywhere inside the body -->
@@ -30,6 +42,7 @@
   <script type="riot/tag" src="../../js/ctd/tags/ctd-section-video.tag"></script>
   <script type="riot/tag" src="../../js/ctd/tags/ctd-header.tag"></script>
   <script type="riot/tag" src="../../js/ctd/tags/ctd-section-intro.tag"></script>
+  <script type="riot/tag" src="../../js/ctd/tags/ctd-div-features.tag"></script>
   <!-- include riot.js -->
   <script src="http://code.jquery.com/jquery.min.js"></script>
   <script src="../../js/libs/jquery.lettering.js"></script>
@@ -38,7 +51,7 @@
   <script src="http://cdn.jsdelivr.net/riot/2.4/riot+compiler.min.js"></script>
   <!-- mount the tag -->
   <script>
-    riot.mount('hello-world, ctd-section-intro');
+    riot.mount('hello-world, ctd-section-intro, ctd-div-features');
     riot.mount('ctd-header', {
       items: [
         { href:"index.html",  title: "ホーム"},
