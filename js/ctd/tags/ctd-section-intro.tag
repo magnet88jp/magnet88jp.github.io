@@ -51,11 +51,11 @@
     line-height: 26px;
     font-size: 14px;
   }
-  .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .bounceInDown {
-    visibility: visible;
-  }
   .wp1 {
     visibility: hidden;
+  }
+  .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .bounceInDown {
+    visibility: visible;
   }
   </style>
 </ctd-section-intro>
