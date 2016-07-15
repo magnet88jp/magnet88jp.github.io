@@ -65,5 +65,11 @@
     position: relative;
     margin: 0 auto 50px;
   }
+  .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .bounceInDown {
+    visibility: visible;
+  }
+  .wp1 {
+    visibility: hidden;
+  }
   </style>
 </ctd-div-features>
