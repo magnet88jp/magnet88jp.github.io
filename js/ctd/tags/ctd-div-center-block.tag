@@ -9,7 +9,7 @@
     if ($('.img-holder').length) {
       $('.img-holder').imageScroll();
     }
-  }
+  });
   </script>
 
   <style scoped>
