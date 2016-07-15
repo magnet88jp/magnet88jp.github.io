@@ -14,21 +14,9 @@
   </style>
 
   <script>
-  this.items = this.opts.items;
-  this.init_nav_hide = this.opts.init_nav_hide;
-  this.observable = riot.observable();
-/*
-  this.items = [
-    { href:"index.html",  title: "ホーム"},
-    { href:"company/index.html",  title: "会社概要"},
-    { href:"solution/index.html",  title: "ソリューション"},
-    { href:"recruit/index.html",  title: "採用情報"},
-    { href:"news/index.html",  title: "ニュース"},
-    { href:"news/index.html",  title: "お問い合わせ",  target: "_blank"}
-  ];
-  this.init_hide = true;
-  this.observable = riot.observable();
-*/
+    this.items = this.opts.items;
+    this.init_nav_hide = this.opts.init_nav_hide;
+    this.observable = riot.observable();
   </script>
 
 </ctd-header>

@@ -31,19 +31,34 @@
             <h2>運用</h2>
             <p>長年に亘る数々の大規模ウェブサイト運用実績を誇る弊社のノウハウにより、どのような業種・業態であっても最適な運用体制を整え、安全・確実にウェブサイトのメンテナンス業務を行います。</p>
           </div>
+
+          <div each={ items } >
+            <div class="icon">
+              <i class="fa fa-cogs"></i>
+            </div>
+            <h2>{ title }</h2>
+            <p>{ description }</p>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
 
   <script>
-  this.on('mount', function(){
-    $('.wp2').waypoint(function(){
-      $('.wp2').addClass('animated fadeInUp');
-    }, {
-      offset: '55%'
-    });
-  })
+    this.items = [
+      {title: "要件定義", description: "お客さまのビジネスにおける課題やニーズを的確に整理し、解決に至るまでのプロセスと最大限の成果を得られる方法を考え、確実にゴールに導くプランを提案いたします。"},
+      {title: "設計", description: "専門職であるインフォーメーションアーキテクトが要件定義に基いて情報設計を行い、ウェブサイトを閲覧するユーザーに対して有益で有効な構造設計・画面設計を実現します。"},
+      {title: "実装", description: "経験豊富で優秀なクリエイター・エンジニアたちが知識と技術を結集して、お客さまのご要望を反映した高品質なウェブサイトを最適な方法によって構築します。"},
+      {title: "運用", description: "長年に亘る数々の大規模ウェブサイト運用実績を誇る弊社のノウハウにより、どのような業種・業態であっても最適な運用体制を整え、安全・確実にウェブサイトのメンテナンス業務を行います。"}
+    ];
+    this.on('mount', function(){
+      $('.wp2').waypoint(function(){
+        $('.wp2').addClass('animated fadeInUp');
+      }, {
+        offset: '55%'
+      });
+    })
   </script>
 
   <style scoped>
