@@ -37,8 +37,36 @@
   </div>
 
   <script>
+  this.on('mount', function(){
+    $('.wp2').waypoint(function(){
+      $('.wp2').addClass('animated fadeInUp');
+    }, {
+      offset: '55%'
+    });
+  })
   </script>
 
   <style scoped>
+  .icon {
+    height: 175px;
+    width: 175px;
+    line-height: 175px;
+    max-width: 100%;
+    background: #f1c40f;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: block;
+    color: #fff;
+    font-size: 55px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto 50px;
+  }
+  .wp2 {
+      visibility: hidden;
+  }
   </style>
 </ctd-div-features>
