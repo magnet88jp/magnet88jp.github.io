@@ -1,6 +1,6 @@
 <ctd-header>
   <ctd-nav items={ items } init_hide={ init_nav_hide } observable={ observable }></ctd-nav>
-  <ctd-section-video observable={ this.observable }></ctd-section-video>
+  <ctd-section-video observable={ observable }></ctd-section-video>
 
   <style scoped>
   ctd-nav {
