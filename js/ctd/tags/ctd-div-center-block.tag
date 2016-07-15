@@ -1,8 +1,8 @@
 <ctd-div-center-block>
-  <div if={ is_pc } class="center-block pc-img">
+  <div if={ is_pc } class="center-block pc-img" style="display:block">
     <div class="img-holder" data-image="/img/service-bg.jpg" data-width="1440" data-height="835" data-extra-height="50"></div>
   </div>
-  <div if={ !is_pc } class="center-block sp-img">
+  <div if={ !is_pc } class="center-block sp-img" style="display:block">
     <div><img class="img-responsive center-block" src="/img/service-bg.jpg" alt="" /></div>
   </div>
 
