@@ -16,6 +16,7 @@
   </div>
 
   <script>
+/*
     this.items = [
       {icon: "fa-newspaper-o", title: "要件定義",
         description: "お客さまのビジネスにおける課題やニーズを的確に整理し、解決に至るまでのプロセスと最大限の成果を得られる方法を考え、確実にゴールに導くプランを提案いたします。"},
@@ -26,6 +27,8 @@
       {icon: "fa-cogs", delay: "delay-15s",title: "運用",
         description: "長年に亘る数々の大規模ウェブサイト運用実績を誇る弊社のノウハウにより、どのような業種・業態であっても最適な運用体制を整え、安全・確実にウェブサイトのメンテナンス業務を行います。"}
     ];
+*/
+    this.items = this.opts.items;
     this.on('mount', function(){
       $('.wp2').waypoint(function(){
         $('.wp2').addClass('animated fadeInUp');
