@@ -65,8 +65,5 @@
     position: relative;
     margin: 0 auto 50px;
   }
-  .wp2 {
-      visibility: hidden;
-  }
   </style>
 </ctd-div-features>

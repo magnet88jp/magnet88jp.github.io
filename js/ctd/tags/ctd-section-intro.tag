@@ -51,8 +51,5 @@
     line-height: 26px;
     font-size: 14px;
   }
-  .wp1 {
-    visibility: hidden;
-  }
   </style>
 </ctd-section-intro>
