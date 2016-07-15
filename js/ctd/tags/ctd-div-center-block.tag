@@ -8,6 +8,7 @@
 
   <script>
   this.is_pc = (!navigator.userAgent.match(/(iPhone|iPad|Android)/)) ? true : false;
+  console.log('DEBUG:is_pc=' + this.is_pc);
   this.on('mount', function(){
     if ($('.img-holder').length) {
       $('.img-holder').imageScroll();
