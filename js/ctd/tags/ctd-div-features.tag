@@ -32,7 +32,7 @@
             <p>長年に亘る数々の大規模ウェブサイト運用実績を誇る弊社のノウハウにより、どのような業種・業態であっても最適な運用体制を整え、安全・確実にウェブサイトのメンテナンス業務を行います。</p>
           </div>
 
-          <div each={ items } >
+          <div each={ items } class="col-md-3 wp2 delay-15s">
             <div class="icon">
               <i class="fa fa-cogs"></i>
             </div>
