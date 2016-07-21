@@ -269,6 +269,20 @@
   </div>
 
   <script>
+  this.on('mount', function(){
+    if ($('.flexslider').length) {
+      $('.flexslider').flexslider({
+        animation: "slide",
+        easing: "easeInExpo",
+        directionNav: true,
+        controlNav: true,
+        touch: true,
+        pauseOnHover: true, start: function(){
+          $.waypoints('refresh');
+        }
+      });
+    }
+  });
   </script>
 
   <style scoped>
