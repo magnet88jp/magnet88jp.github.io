@@ -7,7 +7,7 @@
             <div class="col-xs-4 wp4">
               <div class="overlay-effect effects clearfix">
                 <div class="img">
-                  <img src="img/solution_renewal.jpg" alt="">
+                  <img src="/img/solution_renewal.jpg" alt="">
                 </div>
               </div>
               <h2>ウェブサイトリニューアル</h2>
@@ -17,7 +17,7 @@
               <div class="overlay-effect effects clearfix">
                 <div class="img">
                 <a href="solution/operation/index.html">
-                  <img src="img/solution_maitenance.jpg" alt="">
+                  <img src="/img/solution_maitenance.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -28,7 +28,7 @@
               <div class="overlay-effect effects clearfix">
                 <div class="img">
 
-                  <img src="img/solution_rwd.jpg" alt="">
+                  <img src="/img/solution_rwd.jpg" alt="">
 
                 </div>
               </div>
@@ -41,7 +41,7 @@
               <div class="overlay-effect effects clearfix">
                 <div class="img">
                   <a href="solution/cms/index.html">
-                  <img src="img/solution_cms.jpg" alt="">
+                  <img src="/img/solution_cms.jpg" alt="">
                    </a>
                 </div>
               </div>
@@ -51,7 +51,7 @@
             <div class="col-xs-4 wp4 delay-05s">
               <div class="overlay-effect effects clearfix">
                 <div class="img">
-                    <img src="img/solution_onsite.jpg" alt="">
+                    <img src="/img/solution_onsite.jpg" alt="">
                 </div>
               </div>
               <h2>オンサイト (常駐)</h2>
@@ -60,7 +60,7 @@
             <div class="col-xs-4 wp4 delay-1s">
               <div class="overlay-effect effects clearfix">
                 <div class="img">
-                  <img src="img/solution_system.jpg" alt="">
+                  <img src="/img/solution_system.jpg" alt="">
                 </div>
               </div>
               <h2>システム開発・保守</h2>
@@ -72,7 +72,7 @@
               <div class="overlay-effect effects clearfix">
                 <div class="img">
                    <a href="solution/optimization/index.html">
-                  <img src="img/solution_ab.jpg" alt="">
+                  <img src="/img/solution_ab.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -82,7 +82,7 @@
             <div class="col-xs-4 wp4 delay-05s">
               <div class="overlay-effect effects clearfix">
                 <div class="img">
-                  <img src="img/solution_ux.jpg" alt="">
+                  <img src="/img/solution_ux.jpg" alt="">
                 </div>
               </div>
               <h2>UXデザイン</h2>
@@ -91,7 +91,7 @@
             <div class="col-xs-4 wp4 delay-1s">
               <div class="overlay-effect effects clearfix">
                 <div class="img">
-                  <img src="img/solution_tairyou.jpg" alt="">
+                  <img src="/img/solution_tairyou.jpg" alt="">
                 </div>
               </div>
               <h2>大量ページ制作</h2>
@@ -102,7 +102,7 @@
             <div class="col-xs-4 wp4">
               <div class="overlay-effect effects clearfix">
                 <div class="img">
-                  <img src="img/solution_guide.jpg" alt="">
+                  <img src="/img/solution_guide.jpg" alt="">
                 </div>
               </div>
               <h2>ガイドライン策定</h2>
@@ -111,7 +111,7 @@
             <div class="col-xs-4 wp4 delay-05s">
               <div class="overlay-effect effects clearfix">
                 <div class="img">
-                  <img src="img/solution_research.jpg" alt="">
+                  <img src="/img/solution_research.jpg" alt="">
                 </div>
               </div>
               <h2>リサーチ</h2>
@@ -121,7 +121,7 @@
               <div class="overlay-effect effects clearfix">
                 <div class="img">
                 <a href="solution/application/index.html">
-                  <img src="img/solution_app.jpg" alt="">
+                  <img src="/img/solution_app.jpg" alt="">
                 </a>
                 </div>
               </div>
@@ -139,7 +139,7 @@
             <div class="col-xs-6 wp4 pr5">
               <div class="overlay-effect effects clearfix">
                 <div class="img ml0">
-                  <img src="img/solution_renewal.jpg" alt="">
+                  <img src="/img/solution_renewal.jpg" alt="">
                 </div>
               </div>
               <h2>ウェブサイトリニューアル</h2>
@@ -149,7 +149,7 @@
               <div class="overlay-effect effects clearfix">
                 <div class="img ml0">
                   <a href="solution/operation/index.html">
-                  <img src="img/solution_maitenance.jpg" alt="">
+                  <img src="/img/solution_maitenance.jpg" alt="">
                     </a>
                 </div>
               </div>
@@ -161,7 +161,7 @@
             <div class="col-xs-6 wp4 pr5">
               <div class="overlay-effect effects clearfix">
                 <div class="img ml0">
-                  <img src="img/solution_rwd.jpg" alt="">
+                  <img src="/img/solution_rwd.jpg" alt="">
                 </div>
               </div>
               <h2>レスポンシブウェブデザイン</h2>
@@ -171,7 +171,7 @@
               <div class="overlay-effect effects clearfix">
                 <div class="img ml0">
                   <a href="solution/cms/index.html">
-                  <img src="img/solution_cms.jpg" alt="">
+                  <img src="/img/solution_cms.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -183,7 +183,7 @@
             <div class="col-xs-6 wp4 pr5">
               <div class="overlay-effect effects clearfix">
                 <div class="img ml0">
-                  <img src="img/solution_onsite.jpg" alt="">
+                  <img src="/img/solution_onsite.jpg" alt="">
                 </div>
               </div>
               <h2>オンサイト (常駐)</h2>
@@ -192,7 +192,7 @@
             <div class="col-xs-6 wp4  delay-05s pl5">
               <div class="overlay-effect effects clearfix">
                 <div class="img ml0">
-                  <img src="img/solution_system.jpg" alt="">
+                  <img src="/img/solution_system.jpg" alt="">
                 </div>
               </div>
               <h2>システム開発・保守</h2>
@@ -204,7 +204,7 @@
               <div class="overlay-effect effects clearfix">
                 <div class="img ml0">
                   <a href="solution/optimization/index.html">
-                  <img src="img/solution_ab.jpg" alt="">
+                  <img src="/img/solution_ab.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -214,7 +214,7 @@
             <div class="col-xs-6 wp4 delay-05s pl5">
               <div class="overlay-effect effects clearfix">
                 <div class="img ml0">
-                  <img src="img/solution_ux.jpg" alt="">
+                  <img src="/img/solution_ux.jpg" alt="">
                 </div>
               </div>
               <h2>UXデザイン</h2>
@@ -225,7 +225,7 @@
             <div class="col-xs-6 wp4 pr5">
               <div class="overlay-effect effects clearfix">
                 <div class="img ml0">
-                  <img src="img/solution_tairyou.jpg" alt="">
+                  <img src="/img/solution_tairyou.jpg" alt="">
                 </div>
               </div>
               <h2>大量ページ制作</h2>
@@ -234,7 +234,7 @@
             <div class="col-xs-6 wp4 delay-05s pl5">
               <div class="overlay-effect effects clearfix">
                 <div class="img ml0">
-                  <img src="img/solution_guide.jpg" alt="">
+                  <img src="/img/solution_guide.jpg" alt="">
                 </div>
               </div>
               <h2>ガイドライン策定</h2>
@@ -245,7 +245,7 @@
             <div class="col-xs-6 wp4 pr5">
               <div class="overlay-effect effects clearfix">
                 <div class="img ml0">
-                  <img src="img/solution_research.jpg" alt="">
+                  <img src="/img/solution_research.jpg" alt="">
                 </div>
               </div>
               <h2>リサーチ</h2>
@@ -255,7 +255,7 @@
               <div class="overlay-effect effects clearfix">
                 <div class="img ml0">
                   <a href="solution/application/index.html">
-                  <img src="img/solution_app.jpg" alt="">
+                  <img src="/img/solution_app.jpg" alt="">
                   </a>
                 </div>
               </div>
@@ -441,6 +441,18 @@
   }
   ul.slides li {
     margin-bottom: 20px;
+  }
+  .delay-05s {
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+  }
+  .delay-1s {
+      animation-delay: 1s;
+      -webkit-animation-delay: 1s;
+  }
+  .delay-15s {
+      animation-delay: 1.5s;
+      -webkit-animation-delay: 1.5s;
   }
   </style>
 </ctd-div-portfolio>
