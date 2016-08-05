@@ -289,29 +289,6 @@
   .slides, .flex-control-nav, .flex-direction-navs{
     z-index: 40;
   }
-  .portfolio .flexslider {
-    border: none !important;
-    border-radius: 0 !important;
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
-    margin-bottom: 0;
-  }
-  .office .flexslider {
-    background: none;
-    border: none;
-    position: relative;
-    border-radius: 0;
-    box-shadow: none;
-    background-color: #f8f8f8;
-    margin-bottom: 0;
-  }
-  .office .flexslider li {
-    margin-bottom: 0;
-  }
-  .office .flex-control-nav {
-    margin: 20px 0;
-    position: absolute;
-    bottom: 0;
-  }
   .flexslider .flex-direction-nav .flex-next {
     width: 45px;
     height: 45px;
@@ -328,101 +305,81 @@
     opacity: 1;
     background-size: 100%;
   }
-  .portfolio .flexslider .flex-direction-nav .flex-next,
-  .portfolio .flexslider .flex-direction-nav .flex-prev {
+  .flexslider .flex-direction-nav .flex-next,
+  .flexslider .flex-direction-nav .flex-prev {
     top: 20%;
   }
-  .portfolio .flexslider .flex-direction-nav .flex-next {
+  .flexslider .flex-direction-nav .flex-next {
     right: 20px;
   }
-  .portfolio .flexslider .flex-direction-nav .flex-prev {
+  .flexslider .flex-direction-nav .flex-prev {
     left: 20px;
   }
-  #officeSlider.flexslider .flex-direction-nav .flex-next,
-  #officeSlider.flexslider .flex-direction-nav .flex-prev {
-    top: 50%;
-  }
-  #officeSlider.flexslider .flex-direction-nav .flex-next {
-    right: 5%;
-  }
-  #officeSlider.flexslider .flex-direction-nav .flex-prev {
-    left: 5%;
-  }
-
-  @media (max-width: 450px) {
-    #officeSlider.flexslider .flex-direction-nav .flex-next {
-      right: 25px;
-    }
-    #officeSlider.flexslider .flex-direction-nav .flex-prev {
-      left: 25px;
-    }
-  }
-
   @media (max-width: 1200px) {
-    .portfolio .flexslider .flex-direction-nav .flex-next,
-    .portfolio .flexslider .flex-direction-nav .flex-prev {
+    .flexslider .flex-direction-nav .flex-next,
+    .flexslider .flex-direction-nav .flex-prev {
       top: 18%;
     }
   }
   @media (max-width: 991px) {
-    .portfolio .flexslider .flex-direction-nav .flex-next,
-    .portfolio .flexslider .flex-direction-nav .flex-prev {
+    .flexslider .flex-direction-nav .flex-next,
+    .flexslider .flex-direction-nav .flex-prev {
       top: 14%;
     }
   }
   @media (max-width: 767px) {
-    .portfolio .flexslider .flex-direction-nav .flex-next,
-    .portfolio .flexslider .flex-direction-nav .flex-prev {
+    .flexslider .flex-direction-nav .flex-next,
+    .flexslider .flex-direction-nav .flex-prev {
       top: 21%;
     }
   }
   @media (max-width: 650px) {
-    .portfolio .flexslider .flex-direction-nav .flex-next,
-    .portfolio .flexslider .flex-direction-nav .flex-prev {
+    .flexslider .flex-direction-nav .flex-next,
+    .flexslider .flex-direction-nav .flex-prev {
       top: 19%;
     }
   }
   @media (max-width: 543px) {
-    .portfolio .flexslider .flex-direction-nav .flex-next,
-    .portfolio .flexslider .flex-direction-nav .flex-prev {
+    .flexslider .flex-direction-nav .flex-next,
+    .flexslider .flex-direction-nav .flex-prev {
       top: 15%;
     }
   }
   @media (max-width: 450px) {
-    .portfolio .flexslider .flex-direction-nav .flex-next {
+    .flexslider .flex-direction-nav .flex-next {
       top: 14%;
       right: 25px;
     }
-    .portfolio .flexslider .flex-direction-nav .flex-prev {
+    .flexslider .flex-direction-nav .flex-prev {
       top: 14%;
       left: 25px;
     }
     }
   }
   @media (max-width: 420px) {
-    .portfolio .flexslider .flex-direction-nav .flex-next {
+    .flexslider .flex-direction-nav .flex-next {
       top: 10%;
       right: 45px;
     }
-    .portfolio .flexslider .flex-direction-nav .flex-prev {
+    .flexslider .flex-direction-nav .flex-prev {
       top: 10%;
       left: 45px;
     }
   }
   @media (max-width: 400px) {
-    .portfolio .flexslider .flex-direction-nav .flex-next {
+    .flexslider .flex-direction-nav .flex-next {
       top: 10.5%;
     }
-    .portfolio .flexslider .flex-direction-nav .flex-prev {
+    .flexslider .flex-direction-nav .flex-prev {
       top: 10.5%;
     }
   }
   @media (max-width: 320px) {
-    .portfolio .flexslider .flex-direction-nav .flex-next {
+    .flexslider .flex-direction-nav .flex-next {
       top: 9%;
       right: 20px;
     }
-    .portfolio .flexslider .flex-direction-nav .flex-prev {
+    .flexslider .flex-direction-nav .flex-prev {
       top: 9%;
       left: 20px;
     }
