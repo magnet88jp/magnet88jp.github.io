@@ -315,7 +315,7 @@
   .flexslider .flex-direction-nav .flex-next {
     width: 45px;
     height: 45px;
-    background: url(../img/nav_slideoutmenuslider_next.png) no-repeat 0 0;
+    background: url(../../img/nav_slideoutmenuslider_next.png) no-repeat 0 0;
     right: 10px;
     opacity: 1;
     background-size: 100%;
@@ -323,7 +323,7 @@
   .flexslider .flex-direction-nav .flex-prev {
     width: 45px;
     height: 45px;
-    background: url(../img/nav_slideoutmenuslider_prev.png) no-repeat 0 0;
+    background: url(../../img/nav_slideoutmenuslider_prev.png) no-repeat 0 0;
     left: 10px;
     opacity: 1;
     background-size: 100%;
