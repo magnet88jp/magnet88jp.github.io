@@ -36,6 +36,12 @@
   </script>
 
   <style scoped>
+  .container {
+    background-color: #fff;
+    padding: 0 0 100px 0;
+    display: block;
+    text-align: center;    
+  }
   .icon {
     height: 175px;
     width: 175px;

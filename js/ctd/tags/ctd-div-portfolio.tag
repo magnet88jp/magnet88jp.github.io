@@ -391,9 +391,6 @@
   h1 + p, .slides h2 + p {
     text-align: center;
   }
-  h2 + p {
-    text-align: left;
-  }
   @media (max-width: 767px) {
     h1 + p, .slides h2 + p {
       text-align: left;
