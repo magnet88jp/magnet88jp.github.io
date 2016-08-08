@@ -1,5 +1,5 @@
 <ctd-div-portfolio>
-  <div class="container">
+  <div class="container text-center">
     <div class="row">
       <div id="portfolioSlider01" class="flexslider hidden-xs">
         <ul class="slides">
