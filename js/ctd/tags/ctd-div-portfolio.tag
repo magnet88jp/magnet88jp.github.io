@@ -180,13 +180,13 @@
     {icon: "/img/solution_app.jpg", delay: "delay-1s",title: "モバイルアプリ制作",
       description: "スマートフォンアプリを中心に、各デバイスに合わせて最適なアプリケーションを緻密かつ迅速に開発いたします。"}
   ];
-  // 4件ずつに分割
+  // 3件ずつに分割
   this.slides = [];
   var slideitems = {};
   var arr = [];
   for(var i = 0; i < this.items.length; i++) {
     arr.push(this.items[i]);
-    if(i%4 == 3 || i == this.items.length-1) {
+    if(i%3 == 2 || i == this.items.length-1) {
       slideitems.items = arr;
       this.slides.push(slideitems);
       arr = [];
