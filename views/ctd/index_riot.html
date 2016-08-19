@@ -50,6 +50,7 @@
       お客さまのご要望に合わせて様々な解決手段を用意しています。
     </ctd-section-intro>
     <ctd-div-portfolio></ctd-div-portfolio>
+    <ctd-div-bn-box></ctd-div-bn-box>
   </div><!-- /.blur-area -->
 
   <!-- place the custom tag anywhere inside the body -->
@@ -63,6 +64,7 @@
   <script type="riot/tag" src="../../js/ctd/tags/ctd-div-features.tag"></script>
   <script type="riot/tag" src="../../js/ctd/tags/ctd-div-center-block.tag"></script>
   <script type="riot/tag" src="../../js/ctd/tags/ctd-div-portfolio.tag"></script>
+  <script type="riot/tag" src="../../js/ctd/tags/ctd-div-bn-box.tag"></script>
   <!-- include riot.js -->
   <script src="http://code.jquery.com/jquery.min.js"></script>
   <script src="../../js/libs/jquery.lettering.js"></script>
@@ -73,7 +75,7 @@
   <script src="http://cdn.jsdelivr.net/riot/2.4/riot+compiler.min.js"></script>
   <!-- mount the tag -->
   <script>
-    riot.mount('hello-world, ctd-section-intro, ctd-div-center-block');
+    riot.mount('hello-world, ctd-section-intro, ctd-div-center-block, ctd-div-bn-box');
     riot.mount('ctd-header', {
       items: [
         { href:"index.html",  title: "ホーム"},
