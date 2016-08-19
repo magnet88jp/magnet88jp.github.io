@@ -35,6 +35,7 @@
       </div><!-- /#portfolio_Slider .visible-xs -->
     </div>
   </div>
+  <ctd-div-bn-box></ctd-div-bn-box>
 
   <script>
   this.items = this.opts.items || [
