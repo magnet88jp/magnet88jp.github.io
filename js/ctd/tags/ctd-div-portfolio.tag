@@ -108,6 +108,12 @@
   .slides, .flex-control-nav, .flex-direction-navs{
     z-index: 40;
   }
+  .flexslider {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+    margin-bottom: 0;
+  }
   .flexslider .flex-direction-nav .flex-next {
     width: 45px;
     height: 45px;
