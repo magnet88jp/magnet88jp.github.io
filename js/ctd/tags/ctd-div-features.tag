@@ -37,12 +37,13 @@
 
   <style scoped>
   .container {
-    text-align: center;    
+    text-align: center;
   }
   .icon {
     height: 175px;
     width: 175px;
-    line-height: 175px;
+/*    line-height: 175px;*/
+    padding:60px;
     max-width: 100%;
     background: #f1c40f;
     border-radius: 50%;
