@@ -31,7 +31,7 @@
     {image: "/img/h.jpg", title: "最新技術の導入"},
     {image: "/img/g.jpg", title: "社内パーティー"}
   ];
-  this.blurarea = this.opts.blurarea || 'body';
+  var blurarea = this.opts.blurarea || 'body';
   this.on('mount', function(){
     if($('.modal-open').length){
       $('.modal-open').click(function(){
