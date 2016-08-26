@@ -31,10 +31,11 @@
     {image: "/img/h.jpg", title: "最新技術の導入"},
     {image: "/img/g.jpg", title: "社内パーティー"}
   ];
+  this.blurarea = this.opts.blurarea || 'body';
   this.on('mount', function(){
     if($('.modal-open').length){
       $('.modal-open').click(function(){
-        var vague = $('.blur-area').Vague({intensity: 5});
+        var vague = $( this.blurarea ).Vague({intensity: 5});
         vague.blur();
         $('body').append('<div class="modal-overlay"></div>');
         var modal = $(this).attr('data-target');
