@@ -35,7 +35,7 @@
   this.on('mount', function(){
     if($('.modal-open').length){
       $('.modal-open').click(function(){
-        var vague = $( this.blurarea ).Vague({intensity: 5});
+        var vague = $( blurarea ).Vague({intensity: 5});
         vague.blur();
         $('body').append('<div class="modal-overlay"></div>');
         var modal = $(this).attr('data-target');
