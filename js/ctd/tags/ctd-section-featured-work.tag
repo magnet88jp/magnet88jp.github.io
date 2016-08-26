@@ -153,16 +153,20 @@
         var vague = $( blurarea ).Vague({intensity: 5});
         vague.blur();
         $('body').append('<div class="modal-overlay"></div>');
+console.log('DEBUG1');
         var modal = $(this).attr('data-target');
         $('.slideout-menu').each(function(){
+console.log('DEBUG2');
           if ($(this).hasClass(modal)) {
             $(this).animate({
               right: "0%"
             });
           }
         });
+console.log('DEBUG3');
         $('.modal-overlay').fadeIn('slow');
         $('.modal-overlay, .slideout-menu-toggle').off().click(function(){
+console.log('DEBUG4');
           $('.slideout-menu').animate({
             right: "-70%"
           });
@@ -170,6 +174,7 @@
             $('.modal-overlay').remove();
           });
           vague.unblur();
+console.log('DEBUG5');
         });
       });
     }
