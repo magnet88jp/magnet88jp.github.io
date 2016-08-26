@@ -19,9 +19,9 @@
     </div>
   </div>
   <div class="slideout-menu-block">
-    <div class="slideout-menu con1">
+    <div each={ items } class="slideout-menu con1">
       <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="img/close_btn.gif"></a>
+        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
       </div>
       <div class="slideout-menu-slider">
         <ul class="slides">
@@ -33,13 +33,28 @@
         <p>育休・時短勤務・在宅勤務など、人生の様々な状況に合わせて、柔軟にワークスタイルを選択できる制度があります。女性にも働きやすく長く勤務できる環境が整っています。</p>
       </div>
     </div>
-    <div class="slideout-menu con2">
+
+    <div class="slideout-menu con1">
       <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="img/close_btn.gif"></a>
+        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
       </div>
       <div class="slideout-menu-slider">
         <ul class="slides">
-          <li><img src="img/b02.jpg" alt=""></li>
+          <li><img src="/img/a02.jpg" alt=""></li>
+        </ul>
+      </div>
+      <div class="slideout-menu-text">
+        <h3>ワークスタイル選択制度</h3>
+        <p>育休・時短勤務・在宅勤務など、人生の様々な状況に合わせて、柔軟にワークスタイルを選択できる制度があります。女性にも働きやすく長く勤務できる環境が整っています。</p>
+      </div>
+    </div>
+    <div class="slideout-menu con2">
+      <div class="slideout-menu-closebtn">
+        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
+      </div>
+      <div class="slideout-menu-slider">
+        <ul class="slides">
+          <li><img src="/img/b02.jpg" alt=""></li>
         </ul>
       </div>
       <div class="slideout-menu-text">
@@ -50,11 +65,11 @@
     </div>
     <div class="slideout-menu con3">
       <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="img/close_btn.gif"></a>
+        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
       </div>
       <div class="slideout-menu-slider">
         <ul class="slides">
-          <li><img src="img/c02.jpg" alt=""></li>
+          <li><img src="/img/c02.jpg" alt=""></li>
         </ul>
       </div>
       <div class="slideout-menu-text">
@@ -64,11 +79,11 @@
     </div>
     <div class="slideout-menu con4">
       <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="img/close_btn.gif"></a>
+        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
       </div>
       <div class="slideout-menu-slider">
         <ul class="slides">
-          <li><img src="img/d02.jpg" alt=""></li>
+          <li><img src="/img/d02.jpg" alt=""></li>
         </ul>
       </div>
       <div class="slideout-menu-text">
@@ -78,11 +93,11 @@
     </div>
     <div class="slideout-menu con5">
       <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="img/close_btn.gif"></a>
+        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
       </div>
       <div class="slideout-menu-slider">
         <ul class="slides">
-          <li><img src="img/e02.jpg" alt=""></li>
+          <li><img src="/img/e02.jpg" alt=""></li>
         </ul>
       </div>
       <div class="slideout-menu-text">
@@ -92,11 +107,11 @@
     </div>
     <div class="slideout-menu con6">
       <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="img/close_btn.gif"></a>
+        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
       </div>
       <div class="slideout-menu-slider">
         <ul class="slides">
-          <li><img src="img/f02.jpg" alt=""></li>
+          <li><img src="/img/f02.jpg" alt=""></li>
         </ul>
       </div>
       <div class="slideout-menu-text">
@@ -106,11 +121,11 @@
     </div>
     <div class="slideout-menu con7">
       <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="img/close_btn.gif"></a>
+        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
       </div>
       <div class="slideout-menu-slider">
         <ul class="slides">
-          <li><img src="img/h02.jpg" alt=""></li>
+          <li><img src="/img/h02.jpg" alt=""></li>
         </ul>
       </div>
       <div class="slideout-menu-text">
@@ -120,11 +135,11 @@
     </div>
     <div class="slideout-menu con8">
       <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="img/close_btn.gif"></a>
+        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
       </div>
       <div class="slideout-menu-slider">
         <ul class="slides">
-          <li><img src="img/g02.jpg" alt=""></li>
+          <li><img src="/img/g02.jpg" alt=""></li>
         </ul>
       </div>
       <div class="slideout-menu-text">
