@@ -2,6 +2,20 @@
   <div class="container-fluid">
     <div class="row">
       <ul class="grid">
+        <li each={ items }>
+          <a data-target="con1" class="modal-open">
+            <figure>
+              <img src="/img/icon_plus.png" alt="" class="on">
+              <img src="{ image }" alt="">
+              <figcaption>
+                <div class="caption-content">
+                  <h1>{ title }</h1>
+                </div>
+              </figcaption>
+            </figure>
+          </a>
+        </li>
+
         <li>
           <a data-target="con1" class="modal-open">
             <figure>
@@ -116,6 +130,16 @@
 
 
   <script>
+  this.items = this.opts.items || [
+    {image: "/img/a.jpg", title: "ワークスタイル選択制度"},
+    {image: "/img/b.jpg", title: "書籍執筆"},
+    {image: "/img/c.jpg", title: "社内勉強会"},
+    {image: "/img/d.jpg", title: "服装・髪型自由"},
+    {image: "/img/e.jpg", title: "検証端末の充実"},
+    {image: "/img/f.jpg", title: "MVP制度"},
+    {image: "/img/h.jpg", title: "最新技術の導入"},
+    {image: "/img/g.jpg", title: "社内パーティー"}
+  ];
   </script>
 
   <style scoped>
