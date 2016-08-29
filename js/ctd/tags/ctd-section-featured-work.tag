@@ -204,7 +204,7 @@
   }
   ul li {
     float: left;
-    min-height: 100%;
+/*    min-height: 100%;*/
     width: 25%;
     background-color: #fff;
     list-style: none;
