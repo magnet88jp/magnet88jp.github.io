@@ -148,7 +148,7 @@ behavior: {
                 var seriesDiv = jQuery("<div>", { "class": "ganttview-vtheader-series" });
                 for (var j = 0; j < data[i].series.length; j++) {
                     seriesDiv.append(jQuery("<div>", { "class": "ganttview-vtheader-series-name" })
-                    .append(jQuery("<a>", { "href": (data[i].series[j].name || "#"), "target": "_blank" })
+                    .append(jQuery("<a>", { "href": (data[i].series[j].href || "#"), "target": "_blank" })
 						.append(data[i].series[j].name)));
                 }
                 itemDiv.append(seriesDiv);
