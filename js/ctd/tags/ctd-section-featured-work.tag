@@ -36,7 +36,6 @@
     </div>
   </div>
 
-
   <script>
   this.items = this.opts.items || [
     {image: "/img/a.jpg", image2: "/img/a02.jpg", title: "ワークスタイル選択制度",
@@ -80,7 +79,7 @@
         });
         $('.modal-overlay').fadeIn('slow');
         $('.modal-overlay, .slideout-menu-toggle').off().click(function(){
-          $('.slideout-menu').animate({
+          $('.slideout-menu-block2 .slideout-menu').animate({
             right: "-70%"
           });
           $('.modal-overlay').fadeOut('slow',function(){
