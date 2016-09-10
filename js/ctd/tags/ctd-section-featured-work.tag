@@ -63,7 +63,7 @@
     var $slideout = $('<div></div>',{
       "class": "slideout-menu-block2"
     });
-    $slideout.after($('.slideout-menu-block').html());
+    $slideout.append($('.slideout-menu-block').html());
     $( blurarea ).after($slideout);
     if($('.modal-open').length){
       $('.modal-open').click(function(){
