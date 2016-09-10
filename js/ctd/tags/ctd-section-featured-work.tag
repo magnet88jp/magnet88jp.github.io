@@ -60,14 +60,18 @@
   ];
   var blurarea = this.opts.blurarea || 'body';
   this.on('mount', function(){
-    $( blurarea ).after($('.slideout-menu-block').html());
+    var $slideout = $('<div></div>',{
+      "class": "slideout-menu-block2"
+    });
+    $slideout.after($('.slideout-menu-block').html());
+    $( blurarea ).after($slideout);
     if($('.modal-open').length){
       $('.modal-open').click(function(){
         var vague = $( blurarea ).Vague({intensity: 5});
         vague.blur();
         $('body').append('<div class="modal-overlay"></div>');
         var modal = $(this).attr('data-target');
-        $('.slideout-menu').each(function(){
+        $('.slideout-menu-block2 .slideout-menu').each(function(){
           if ($(this).hasClass(modal)) {
             $(this).animate({
               right: "0%"
