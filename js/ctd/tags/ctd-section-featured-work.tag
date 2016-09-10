@@ -3,7 +3,7 @@
     <div class="row">
       <ul class="grid">
         <li each={ items }>
-          <a data-target="con1" class="modal-open">
+          <a data-target="{ target }" class="modal-open">
             <figure>
               <img src="/img/icon_plus.png" alt="" class="on">
               <img src="{ image }" alt="">
@@ -19,18 +19,19 @@
     </div>
   </div>
   <div class="slideout-menu-block">
-    <div each={ items } class="slideout-menu con1">
+    <div each={ items } class="slideout-menu {target}">
       <div class="slideout-menu-closebtn">
         <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
       </div>
       <div class="slideout-menu-slider">
         <ul class="slides">
-          <li><img src="img/a02.jpg" alt=""></li>
+          <li><img src="{ image2 }" alt=""></li>
         </ul>
       </div>
       <div class="slideout-menu-text">
-        <h3>ワークスタイル選択制度</h3>
-        <p>育休・時短勤務・在宅勤務など、人生の様々な状況に合わせて、柔軟にワークスタイルを選択できる制度があります。女性にも働きやすく長く勤務できる環境が整っています。</p>
+        <h3>{ title }</h3>
+        <p>{ description }</p>
+        <p><a href="{ link }" target="_blank">{ linktitle }<span class="glyphicon glyphicon-new-window mt5 ml5" aria-hidden="true"></span></a></p>
       </div>
     </div>
 
