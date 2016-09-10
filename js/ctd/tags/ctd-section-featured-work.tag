@@ -34,120 +34,6 @@
         <p><a href="{ link }" target="_blank">{ linktitle }<span class="glyphicon glyphicon-new-window mt5 ml5" aria-hidden="true"></span></a></p>
       </div>
     </div>
-
-    <div class="slideout-menu con1">
-      <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
-      </div>
-      <div class="slideout-menu-slider">
-        <ul class="slides">
-          <li><img src="/img/a02.jpg" alt=""></li>
-        </ul>
-      </div>
-      <div class="slideout-menu-text">
-        <h3>ワークスタイル選択制度</h3>
-        <p>育休・時短勤務・在宅勤務など、人生の様々な状況に合わせて、柔軟にワークスタイルを選択できる制度があります。女性にも働きやすく長く勤務できる環境が整っています。</p>
-      </div>
-    </div>
-    <div class="slideout-menu con2">
-      <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
-      </div>
-      <div class="slideout-menu-slider">
-        <ul class="slides">
-          <li><img src="/img/b02.jpg" alt=""></li>
-        </ul>
-      </div>
-      <div class="slideout-menu-text">
-        <h3>書籍執筆</h3>
-        <p>スマートフォンブームに先駆け、弊社コーダーが「スマートフォンサイト制作入門」を執筆し、出版した実績があります。</p>
-        <p><a href="http://www.amazon.co.jp/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C%E5%85%A5%E9%96%80-%E3%80%94%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B7%E3%83%96%E3%83%BB%E3%82%A6%E3%82%A7%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E5%AF%BE%E5%BF%9C%E3%80%95-%E3%83%8D%E3%83%83%E3%83%88%E3%82%A4%E3%83%A4%E3%83%BC%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/dp/4774158801" target="_blank">スマートフォンサイト制作入門 〔レスポンシブ・ウェブデザイン対応〕<span class="glyphicon glyphicon-new-window mt5 ml5" aria-hidden="true"></span></a></p>
-      </div>
-    </div>
-    <div class="slideout-menu con3">
-      <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
-      </div>
-      <div class="slideout-menu-slider">
-        <ul class="slides">
-          <li><img src="/img/c02.jpg" alt=""></li>
-        </ul>
-      </div>
-      <div class="slideout-menu-text">
-        <h3>社内勉強会</h3>
-        <p>有志メンバーによって技術的な社内勉強会や分科会が活発に開催されています。仲間同士で切磋琢磨し、新しい試みが実際の業務提案に活かされています。</p>
-      </div>
-    </div>
-    <div class="slideout-menu con4">
-      <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
-      </div>
-      <div class="slideout-menu-slider">
-        <ul class="slides">
-          <li><img src="/img/d02.jpg" alt=""></li>
-        </ul>
-      </div>
-      <div class="slideout-menu-text">
-        <h3>服装・髪型自由</h3>
-        <p>オフィス内では服装も髪型も髪色も個性を尊重し許容される雰囲気があります。義務と責任を果たしていれば自由にのびのび働ける社風です。</p>
-      </div>
-    </div>
-    <div class="slideout-menu con5">
-      <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
-      </div>
-      <div class="slideout-menu-slider">
-        <ul class="slides">
-          <li><img src="/img/e02.jpg" alt=""></li>
-        </ul>
-      </div>
-      <div class="slideout-menu-text">
-        <h3>検証端末の充実</h3>
-        <p>新旧のスマートフォン、タブレットなどのデバイスがバージョン違いの端末も合わせて約170台揃っています。様々なデバイス・環境での検証が可能です。</p>
-      </div>
-    </div>
-    <div class="slideout-menu con6">
-      <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
-      </div>
-      <div class="slideout-menu-slider">
-        <ul class="slides">
-          <li><img src="/img/f02.jpg" alt=""></li>
-        </ul>
-      </div>
-      <div class="slideout-menu-text">
-        <h3>MVP制度</h3>
-        <p>毎月、業務を通じて会社に貢献をもたらした人を「月間MVP」として表彰する制度があり5000円分の飲食費が授与されます。年齡や在籍年数に関係なく頑張っている人が報われて評価される文化があります。</p>
-      </div>
-    </div>
-    <div class="slideout-menu con7">
-      <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
-      </div>
-      <div class="slideout-menu-slider">
-        <ul class="slides">
-          <li><img src="/img/h02.jpg" alt=""></li>
-        </ul>
-      </div>
-      <div class="slideout-menu-text">
-        <h3>最新技術の導入</h3>
-        <p>node.jsによる自動化やCSSフレームワークによる効率化を推進し、HTMLコーダー全員に統合開発環境 (IDE) であるPhpStormを導入するなど、新しいツールや技術を積極的に取り入れています。</p>
-      </div>
-    </div>
-    <div class="slideout-menu con8">
-      <div class="slideout-menu-closebtn">
-        <a class="slideout-menu-toggle"><img src="/img/close_btn.gif"></a>
-      </div>
-      <div class="slideout-menu-slider">
-        <ul class="slides">
-          <li><img src="/img/g02.jpg" alt=""></li>
-        </ul>
-      </div>
-      <div class="slideout-menu-text">
-        <h3>社内パーティー</h3>
-        <p>四半期ごとに社内の施設を貸し切って全従業員対象のパーティーを行います。食事やお酒の用意はもちろん、簡易的なレクリエーションも企画され、従業員同士の交流を深めています。</p>
-      </div>
-    </div>
   </div>
 
 
@@ -174,6 +60,7 @@
   ];
   var blurarea = this.opts.blurarea || 'body';
   this.on('mount', function(){
+    $( blurarea ).after($('.slideout-menu-block').html());
     if($('.modal-open').length){
       $('.modal-open').click(function(){
         var vague = $( blurarea ).Vague({intensity: 5});
