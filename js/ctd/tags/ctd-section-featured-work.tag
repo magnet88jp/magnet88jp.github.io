@@ -64,13 +64,14 @@
     });
     $slideout.append($('.slideout-menu-block').html());
     $( blurarea ).after($slideout);
+    $('.slideout-menu-block').empty();
     if($('.modal-open').length){
       $('.modal-open').click(function(){
         var vague = $( blurarea ).Vague({intensity: 5});
         vague.blur();
         $('body').append('<div class="modal-overlay"></div>');
         var modal = $(this).attr('data-target');
-        $('.slideout-menu-block2 .slideout-menu').each(function(){
+        $('.slideout-menu').each(function(){
           if ($(this).hasClass(modal)) {
             $(this).animate({
               right: "0%"
@@ -79,7 +80,7 @@
         });
         $('.modal-overlay').fadeIn('slow');
         $('.modal-overlay, .slideout-menu-toggle').off().click(function(){
-          $('.slideout-menu-block2 .slideout-menu').animate({
+          $('.slideout-menu').animate({
             right: "-70%"
           });
           $('.modal-overlay').fadeOut('slow',function(){
