@@ -65,7 +65,7 @@
     });
     $slideout.append($('.slideout-menu-block').html());
     $( blurarea ).after($slideout);
-//    $('.slideout-menu-block').empty();
+    $('.slideout-menu-block').empty();
 
     if($('.modal-open').length){
       $('.modal-open').click(function(){
