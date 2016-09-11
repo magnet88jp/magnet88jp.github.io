@@ -43,5 +43,16 @@
     display: block !important;
     visibility: visible !important;
   }
+  .recruit {
+      font-size: 32px;
+      font-family: 'Roboto', sans-serif;
+  }
+  p {
+    color: #121212;
+    word-spacing: 1px;
+    line-height: 26px;
+    font-size: 14px;
+    margin: 1em 0;
+  }
   </style>
 </ctd-div-center-block>
