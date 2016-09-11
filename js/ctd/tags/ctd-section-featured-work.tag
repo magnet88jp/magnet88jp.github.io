@@ -57,7 +57,7 @@
     {image: "/img/g.jpg", image2: "/img/g02.jpg", title: "社内パーティー",
       description: "四半期ごとに社内の施設を貸し切って全従業員対象のパーティーを行います。食事やお酒の用意はもちろん、簡易的なレクリエーションも企画され、従業員同士の交流を深めています。"}
   ];
-  var blurarea = this.opts.blurarea || 'blur-area';
+  var blurarea = this.opts.blurarea || '.blur-area';
   this.on('mount', function(){
 
     var $slideout = $('<div></div>',{
