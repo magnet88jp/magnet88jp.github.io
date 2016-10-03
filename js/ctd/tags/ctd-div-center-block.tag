@@ -18,7 +18,7 @@
 
   <div if={ !is_pc } class="center-block sp-img sp-lets">
       <div if={ title } class="container subscribe text-center">
-        <img src="img/cursor.png" alt="">
+        <img src="/img/cursor.png" alt="">
         <p class="recruit">{ title }</p>
         <p class="col-xs-8 col-xs-offset-2">ウェブの未来を一緒に作りませんか？<br>ネットイヤークラフトでは、ウェブサイト構築に携わる多彩な人材を探しています。</p>
         <div class="col-xs-12">
@@ -36,7 +36,8 @@
   this.is_pc = (!navigator.userAgent.match(/(iPhone|iPad|Android)/)) ? true : false;
   this.image = this.opts.image || '/img/service-bg.jpg';
   this.title = this.opts.title || '';
-  console.log('DEBUG:' + this.title);
+  console.log('DEBUG:is_pc=' + this.is_pc);
+  console.log('DEBUG:title=' + this.title);
   this.on('mount', function(){
     if ($('.img-holder').length) {
       $('.img-holder').imageScroll();
