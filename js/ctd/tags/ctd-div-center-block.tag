@@ -8,7 +8,7 @@
         <div class="col-xs-12">
           <a href="recruit/index.html">
             <div class="bn_box">
-              採用情報を見る<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+              採用情報を見る2<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
             </div><!--/.bn_box  -->
           </a>
         </div>
