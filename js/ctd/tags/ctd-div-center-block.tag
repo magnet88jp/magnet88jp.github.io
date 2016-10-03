@@ -2,9 +2,9 @@
   <div if={ is_pc } class="center-block pc-img">
     <div class="img-holder" data-image="{ image }" data-width="1440" data-height="835" data-extra-height="50">
       <div if={ title } class="container subscribe text-center">
-        <img src="/img/cursor.png" alt="" />
+        <img src="/img/cursor.png" alt="" >
         <p class="recruit">{ title }</p>
-        <p>ウェブの未来を一緒に作りませんか？<br>ネットイヤークラフトでは、ウェブサイト構築に携わる多彩な人材を探しています。</p>
+        <p class="col-xs-8 col-xs-offset-2">ウェブの未来を一緒に作りませんか？<br>ネットイヤークラフトでは、ウェブサイト構築に携わる多彩な人材を探しています。</p>
         <div class="col-xs-12">
           <a href="recruit/index.html">
             <div class="bn_box">
