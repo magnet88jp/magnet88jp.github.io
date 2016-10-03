@@ -35,7 +35,8 @@
   <script>
   this.is_pc = (!navigator.userAgent.match(/(iPhone|iPad|Android)/)) ? true : false;
   this.image = this.opts.image || '/img/service-bg.jpg';
-  this.title = this.opts.title || 'a';
+  this.title = this.opts.title || '';
+  console.log('DEBUG:' + this.title);
   this.on('mount', function(){
     if ($('.img-holder').length) {
       $('.img-holder').imageScroll();
