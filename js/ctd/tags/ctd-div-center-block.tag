@@ -93,5 +93,9 @@
     -o-transition: color .2s linear, background .1s linear;
     transition: color .2s linear, background .1s linear;
   }
+  .subscribe {
+    position: relative;
+    padding-top: 130px;
+  }
   </style>
 </ctd-div-center-block>
