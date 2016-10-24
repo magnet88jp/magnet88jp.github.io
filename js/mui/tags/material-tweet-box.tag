@@ -8,6 +8,16 @@
         <i class="material-icons">create</i>
       </material-button>
     </form>
+    <div class="stream-container">
+      <div class="stream"></div>
+      <div class="stream">
+        <ol class="stream-items">
+          <li class="stream-item">1</li>
+          <li class="stream-item">2</li>
+          <li class="stream-item">3</li>
+        </ol>
+      </div>
+    </div>
 
     <script>
     </script>
