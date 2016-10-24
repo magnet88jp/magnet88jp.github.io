@@ -12,7 +12,14 @@
       <div class="stream"></div>
       <div class="stream">
         <ol class="stream-items">
-          <li class="stream-item">1</li>
+          <li class="stream-item">
+            <material-card>
+              <div class="title">
+                <div class="material-card-title">Default Button</div>
+              </div>
+              <div class="material-card-content">content</div>
+            </material-card>
+          </li>
           <li class="stream-item">2</li>
           <li class="stream-item">3</li>
         </ol>
