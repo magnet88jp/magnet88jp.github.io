@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>mui-combo</title>
+  <link href="../../css/libs/riot-mui.min.css" rel="stylesheet" type="text/css">
+  <style>
+  </style>
+</head>
+<body>
+  <!-- place the custom tag anywhere inside the body -->
+  <material-combo  defaultText="Select one">
+      <option value="1">One</option>
+      <option value="2">Two</option>
+  </material-combo>
+  <!-- include the tag -->
+  <script type="riot/tag" src="../../js/libs/riot-mui.js"></script>
+  <!-- include riot.js -->
+  <script src="https://cdn.jsdelivr.net/riot/2.4/riot+compiler.min.js"></script>
+  <!-- mount the tag -->
+  <script>
+    riot.mount('material-combo');
+  </script>
+</body>
+</html>
